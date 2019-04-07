@@ -1,0 +1,47 @@
+.side-nav{
+	height:100%;
+	background:#ccac9d;
+	box-shadow:1px 0px 7px rgba(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	width:70%;
+	max-width:400px;
+	width:300px;
+	z-index:200;
+	transition: transform 0.5s, ease-out;
+}
+
+.close{
+	transform:translateX(-100%);
+}
+
+
+
+.nav{
+ background:#ccac9d;
+}
+
+
+
+@media(max-width:769px){
+  .nav{
+    display:none;
+  }
+  .main{
+    width:100%;
+  }
+}
+
+@media(min-width:770px){
+	.bar{
+		display:none;
+	}
+	.side-nav{
+		display:none;
+	}
+	.backdrop{
+		display:none;
+	}
+
+}

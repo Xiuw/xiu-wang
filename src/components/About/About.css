@@ -1,0 +1,15 @@
+.pic{
+	border:solid 5px #ccac9d;
+}
+
+.sayHello{
+
+  -webkit-animation-name: hello;
+  -webkit-animation-duration: 10s;
+}
+
+@-webkit-keyframes hello {
+  from {color:#FFFCEB; font-size:0px;}
+  50% {color:#E2C3AA; font-size:100px;}
+  to {color: #CCAC9D;}
+}
