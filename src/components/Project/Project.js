@@ -9,9 +9,9 @@ const Project = () => {
 			<div key={i} className="tc ma3 mb4">
 				<Animated animationIn="slideInUp" isVisible={true}>
 				<div className="ma2 overflow-hidden">
-				<a class="mid-gray link dim" href={projectList[i].website}>
-				 <img class="projectImage  shadow-5 grow" width="400px" height="300px" alt={i} src={projectList[i].image} />
-				 <p class="mt4 mb0 dim b f4">{projectList[i].name}</p>
+				<a className="mid-gray link dim" href={projectList[i].website}>
+				 <img className="projectImage  shadow-5 grow" width="400px" height="300px" alt={i} src={projectList[i].image} />
+				 <p className="mt4 mb0 dim b f4">{projectList[i].name}</p>
 				</a>
 				</div>
 				<div className="ma0">
@@ -30,6 +30,9 @@ const Project = () => {
 				{displayList}
 				
 			</div>
+			 <div className="tc ma4 mb5">
+              <p style={{background:"#ccac9d"}} className="b grow input-reset pointer f5 dib mid-gray hover-white pa3">More on Github</p>
+            </div>
 		</div>
 	)
 }

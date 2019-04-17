@@ -5,6 +5,8 @@ import SideNav from './components/Navigation/SideNav';
 import About from './components/About/About';
 import Project from './components/Project/Project';
 import Skill from './components/Skill/Skill';
+import ContactForm from './components/ContactForm/ContactForm';
+
 
 import './App.css';
 
@@ -37,6 +39,8 @@ class App extends Component {
           <Route exact path="/" component={About}/>
           <Route path="/project" component={Project}/>
           <Route path="/skill" component={Skill}/>
+          <Route path="/form" component={ContactForm}/>
+
           
         </Switch>
 
