@@ -5,14 +5,14 @@ const Contact = () => {
 	return(
 		<div>
 		<Link className="grow dim white no-underline b flex flex-column items-center ma4" to="Skill">
-				<p className="black dim pa2 ma1 f6" style={{color:"#FFF"}}>Resume </p>
-				<i className="fas fa-download black dim" style={{color:"#FFF"}}></i>
+				<p className="dim pa2 ma1 f6 mid-gray">Resume </p>
+				<i className="fas fa-download dim mid-gray"></i>
 		</Link>
 		<hr className="mw3 mw4-l bb center bw1 b--white-50  "/>
 		<ul className="flex flex-column list pl0 justify-center ">
     
 	        <li><a className={linkStyle} href="mailto:Sylv_xw@gmail.com">
-	              <i className="fas fa-envelope-open  dib w1 h1"></i>	
+	              <i className="fas fa-envelope-open dib w1 h1"></i>	
 	              <span className="f6 mt1">Gmail</span>
 	        </a> </li>
             

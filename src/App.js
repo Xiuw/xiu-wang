@@ -6,7 +6,6 @@ import About from './components/About/About';
 import Project from './components/Project/Project';
 import Skill from './components/Skill/Skill';
 import ContactForm from './components/Contact/ContactForm';
-
 import './App.css';
 
 class App extends Component {

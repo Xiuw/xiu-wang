@@ -30,6 +30,9 @@ const Project = () => {
 				{displayList}
 				
 			</div>
+			 <div className="tc ma4 mb5">
+              <p style={{background:"#ccac9d"}} className="b grow input-reset pointer f5 dib mid-gray hover-white pa3">More on Github</p>
+            </div>
 		</div>
 	)
 }
