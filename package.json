@@ -1,9 +1,10 @@
 {
   "name": "xiu-wang",
   "version": "0.1.0",
-  "homepage":"https://xiuw.github.io/",
+  "homepage": "https://xiuw.github.io/",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-animated-css": "^1.0.4",

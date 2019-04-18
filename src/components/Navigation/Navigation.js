@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Contact from './Contact';
+import Nav from './Nav';
 
 
 import './Nav.css';
@@ -20,26 +21,10 @@ const Navigation = () =>{
 
 			<hr className="mw3 mw4-l bb center bw1 b--white-50 "/>
 
-		<ul className="flex flex-column list pl0">
-
-			<li className="pa3 grow">
-				<Link className={linkStyle} to="/">Home</Link>
-			</li>
-			<li className="pa3 grow">
-				<Link className={linkStyle} to="project">Project</Link>
-			</li>
-
-			<li className="pa3 grow" >
-				<Link className={linkStyle} to="Skill">Skill</Link>
-			</li>
-			
 		
-			
-		</ul>
-
+		<Nav/>
 		<hr className="mw3 mw4-l bb center bw1 b--white-50 "/>
 		
-
 		<Contact />
 		
 	</div>
@@ -47,5 +32,5 @@ const Navigation = () =>{
 }
 
 
-const linkStyle = "grow dim white no-underline b"
+
 export default Navigation;
