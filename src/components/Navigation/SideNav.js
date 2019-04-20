@@ -6,9 +6,9 @@ import './Nav.css';
 const SideNav = ({handleSideNav, showHideNav}) =>{
 	return(
 		<div>
-			<div className="flex navbar"  id="style-1">
-				<div className="bar pointer absolute dim" id="delBtn" onClick={handleSideNav}> 
-	                 <i className="fas fa-bars ml4 mt3 f3 black-80 "></i>
+			<div className={showHideNav? "hidebar" : "flex navbar"}  id="style-1">
+				<div className="bar pointer absolute dim z-max" id="delBtn" onClick={handleSideNav}> 
+	                 <i className="fas fa-bars ml4 mt3 f3 black-80"></i>
 	            </div>
             </div>
 

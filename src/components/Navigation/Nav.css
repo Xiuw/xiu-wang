@@ -16,7 +16,9 @@
 	transform:translateX(-100%);
 }
 
-
+.hidebar{
+	opacity:0;
+}
 
 .nav{
  background:#ccac9d;

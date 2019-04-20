@@ -13,10 +13,10 @@ const Nav = () => {
 			</li>
 
 			<li className="pa3 grow" >
-				<Link className={linkStyle} to="Skill">Skill</Link>
+				<Link className={linkStyle} to="skill">Skill</Link>
 			</li>
 			<li className="pa3 grow" >
-				<Link className={linkStyle} to="Contact">Contact</Link>
+				<Link className={linkStyle} to="contact">Contact</Link>
 			</li>
 				
 		</ul>
