@@ -4,8 +4,11 @@ import {Animated} from "react-animated-css";
 const Skill = () => {
 	return(
 		<div>
+    <Animated animationIn="jello" isVisible={true} >
+        <h1 className=" w-30-l w-50 black-80 center tc ma4 pa2 f2 f1-ns title_and_link fw5" style={{color:"#ccac9d"}}>Skills</h1>
+    </Animated> 
          <Animated animationIn="slideInUp" isVisible={true}>
-		<h1 className=" black-80 center tc ma4 pa3 f2 f1-ns" style={{color:"#ccac9d"}}>Skills</h1>
+
 		 <p className="black-80 tc ma2 f6 f6-m f4-ns pl3 pr3">
              *Following are the programming languages, 
               frameworks and tools I've used in my projects.

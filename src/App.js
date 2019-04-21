@@ -23,7 +23,6 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.state.sideNavOpen)
     return (
       <Router>
         <div className="flex roboto">
@@ -31,7 +30,7 @@ class App extends Component {
         <SideNav handleSideNav = {this.onHandleSideNav} showHideNav ={this.state.sideNavOpen} />
          <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
 
-         <div className="w-80-l w-100-m vh-100 scrollbar force-overflow main bg-washed-yellow"  id="style-1">
+         <div className="w-80-l w-100-m vh-100 scrollbar force-overflow main bg-white-80"  id="style-1">
         <Switch>
           
           <Route exact path="/" component={About}/>
