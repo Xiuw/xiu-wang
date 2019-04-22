@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from './XiuW_2019.pdf';
+import pdf from './Wang_2019.pdf';
 
 const Contact = () => {
 	return(

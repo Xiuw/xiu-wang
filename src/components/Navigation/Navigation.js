@@ -9,7 +9,7 @@ import {Animated} from "react-animated-css";
 
 const Navigation = () =>{
 	return(
-	<div className="scrollbar w-20-l vh-100 tc force-overflow nav" id="style-1">
+	<div className="scrollbar w-20-l vh-100 tc force-overflow nav fixed" id="style-1">
 			<Animated animationIn="jello" isVisible={true} >
 			<div className="pa2 title_and_link ma4-l ma2 mt3 mb1 bg-washed-yellow">
 				<Link className="no-underline"to="/">

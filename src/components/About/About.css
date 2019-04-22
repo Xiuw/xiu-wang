@@ -5,11 +5,29 @@
 .sayHello{
 
   -webkit-animation-name: hello;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-duration: 6s;
+	opacity:0;
 }
 
 @-webkit-keyframes hello {
-  from {color:#FFFCEB; font-size:0px;}
-  50% {color:#E2C3AA; font-size:100px;}
-  to {color: #CCAC9D;}
+  from {color:#E2C3AA; font-size:0px;opacity:1;}
+
+  50% {color:#E2C3AA; font-size:100px;opacity:1;}
+
+  to {color: #E2C3AA; font-size:0px;opacity:1;}
+}
+.aboutme{
+	display:none;
+}
+
+.show{
+	display:block;
+  -webkit-animation-name: showit;
+  -webkit-animation-duration: 6s;
+}
+
+@-webkit-keyframes showit {
+  from {opacity:0;}
+  to {opacity:1;}
 }

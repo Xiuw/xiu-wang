@@ -1,6 +1,6 @@
 .overlay {
   position: absolute; 
-  bottom: 40%; 
+  bottom: 20%; 
 /*  background: rgb(0, 0, 0);*/
  /* background: rgba(165, 128, 111, .8)*/; 
   width: 100%;
@@ -20,7 +20,7 @@
   opacity:.8;
 }
 
-.hover_on_link:hover{
+.image:hover .hover_on_link{
   border:solid #ccac9d 1.5px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
