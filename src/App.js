@@ -27,12 +27,12 @@ class App extends Component {
     return (
       <Router>
             
-        <div className="flex roboto">
+        <div className="flex roboto bg-washed-yellow">
         <Navigation/>
         <SideNav handleSideNav = {this.onHandleSideNav} showHideNav ={this.state.sideNavOpen} />
          <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
-         <div className="w-20-ns space"></div>
-         <div className="w-80-ns w-100-m w-100 scrollbar force-overflow main center bg-washed-yellow " id="style-1">
+         <div className="w-20-ns w-20-m w-0 space"></div>
+         <div className="w-80-ns w-80-m w-100 scrollbar force-overflow main center" id="style-1">
         <ScrollToTop>
           <Switch>
           

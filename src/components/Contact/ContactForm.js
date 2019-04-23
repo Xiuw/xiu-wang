@@ -4,6 +4,8 @@ import axios from 'axios';
 import {Redirect} from 'react-router-dom';
 import './ContactForm.css'
 
+
+
 class ContactForm extends Component{
    constructor(){
     super();
@@ -23,7 +25,14 @@ class ContactForm extends Component{
   }
  
   handleReturn = (e) => {
-    this.setState({success:false})
+    this.setState({
+       name:'',
+      email:'',
+      message:'',
+      success:false,
+      error:''
+
+    })
     return <Redirect to='/contact'/>
   }
 
@@ -55,6 +64,7 @@ class ContactForm extends Component{
   }
 
 render(){
+  console.log(this.state.success)
 	return(
 		<div className="vh-100 ma0 pa0">
       {
