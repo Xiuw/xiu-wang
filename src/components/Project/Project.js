@@ -23,7 +23,7 @@ const Project = () => {
 		)
 	})
 	return(
-		<div className="100-vh">
+		<div className="">
 			<Animated animationIn="jello" isVisible={true} >
 				<h1 className="w-30-l w-50 black-80 center tc ma4 pa2 f2 f1-ns fw5 title_and_link" style={{color:"#ccac9d"}}>Projects</h1>
 			</Animated>

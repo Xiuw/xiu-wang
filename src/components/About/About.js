@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 const About = () =>{
 	return(
     <div>
-		<article className="vh-100 dt w-100 black-80 tc" >
+		<article className="dt vh-100 black-80 tc" >
           <div className=" dtc v-mid ph3 ph4-l">
              <div className="show">
                 <p className=" pa2 ma0 name-style tc  f-subheadline-l" style={{color:"#ccac9d"}}> Xiu <span className="gray">Wang</span></p>
