@@ -1,33 +1,51 @@
+.name-style{
+	font-size:80px;
+}
+
 .pic{
-	border:solid 5px #ccac9d;
+  border:solid 2px #ccac9d;
+}
+.about-link{
+	-webkit-animation-name: grow-effect;
+  	-webkit-animation-duration: 2s;
+	transition: all .2s ease-in-out;
+ 	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
 }
 
-.sayHello{
-
-  -webkit-animation-name: hello;
-  -webkit-animation-delay: 1s;
-  -webkit-animation-duration: 6s;
-	opacity:0;
+.about-link:hover{
+   -webkit-animation-name: none;
 }
 
-@-webkit-keyframes hello {
-  from {color:#E2C3AA; font-size:0px;opacity:1;}
-
-  50% {color:#E2C3AA; font-size:100px;opacity:1;}
-
-  to {color: #E2C3AA; font-size:0px;opacity:1;}
-}
-.aboutme{
-	display:none;
+.dottedBorder{
+  border:none;
+  border-top:10px dotted gray;
+  color:#fff;
 }
 
 .show{
-	display:block;
+  display:block;
   -webkit-animation-name: showit;
-  -webkit-animation-duration: 6s;
+  -webkit-animation-duration: 5s;
+}
+
+ @-webkit-keyframes grow-effect{
+ from {transform: scale(1);}
+ 50%{transform: scale(1.1);}
+  to {transform: scale(1);}
 }
 
 @-webkit-keyframes showit {
   from {opacity:0;}
   to {opacity:1;}
+}
+
+
+
+
+@media(min-width:770px){
+	.about-link{
+		display:none;
+	}
+
 }

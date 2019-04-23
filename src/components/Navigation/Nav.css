@@ -16,6 +16,12 @@
 	transform:translateX(-100%);
 }
 
+
+.myName{
+	font-size:26px;
+   	border-top-left-radius: 50px;
+  	border-bottom-right-radius: 50px;
+}
 .hidebar{
 	opacity:0;
 }
@@ -24,15 +30,11 @@
  background:#ccac9d;
 }
 
-
-
 @media(max-width:769px){
   .nav{
     display:none;
   }
-  .main{
-    width:100%;
-  }
+ 
 }
 
 @media(min-width:770px){

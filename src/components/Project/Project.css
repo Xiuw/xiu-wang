@@ -1,14 +1,15 @@
 .overlay {
   position: absolute; 
-  bottom: 20%; 
+  bottom: 5%; 
 /*  background: rgb(0, 0, 0);*/
- /* background: rgba(165, 128, 111, .8)*/; 
+/*  background: rgba(165, 128, 111, .8); */
   width: 100%;
   transition: .6s ease;
   opacity:0;
   color: white;
-  padding: 20px;
+ /* padding: 20px;*/
   text-align: center;
+
 }
 
 .image:hover .overlay{
@@ -16,14 +17,19 @@
 }
 
 .image:hover .projectImage{
-  filter:blur(4px);
-  opacity:.8;
+  filter:blur(5px);
+  opacity:.4;
 }
 
 .image:hover .hover_on_link{
   border:solid #ccac9d 1.5px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
-  background:#ccac9d;
+
 
 }
+
+.hover_on_link:hover{
+    color:#ccac9d;
+}
+

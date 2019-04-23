@@ -31,17 +31,17 @@ class App extends Component {
         <Navigation/>
         <SideNav handleSideNav = {this.onHandleSideNav} showHideNav ={this.state.sideNavOpen} />
          <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
-         <div className="w-20-l"></div>
-         <div className="w-80-l w-100-m  scrollbar force-overflow main bg-white-80"  id="style-1">
+         <div className="w-20-ns space"></div>
+         <div className="w-80-ns w-100-m w-100 scrollbar force-overflow main center bg-washed-yellow " id="style-1">
         <ScrollToTop>
-        <Switch>
-        
-          <Route exact path="/" component={About}/>
-          <Route path="/project" component={Project}/>
-          <Route path="/skill" component={Skill}/>
-          <Route path="/contact" component={ContactForm}/>
-        
-        </Switch>
+          <Switch>
+          
+            <Route exact path="/" component={About}/>
+            <Route path="/project" component={Project}/>
+            <Route path="/skill" component={Skill}/>
+            <Route path="/contact" component={ContactForm}/>
+          
+          </Switch>
         </ScrollToTop>
         </div>
       </div>

@@ -7,17 +7,16 @@ const Project = () => {
 	const displayList = projectList.map((project,i)=>{
 		return(
 		
-			<div key={i} className="tc ml4 mr4 mb5">
+			<div key={i} className="tc ml4 mr4 mb5 ">
 				<Animated animationIn="slideInUp" isVisible={true}>
-				<p className="f3 mid-gray fw6 ">{projectList[i].name}</p>
-				<div className="image">
-				 <img className="projectImage" width="400px" height="300px" alt={i} src={projectList[i].image} />
-				 <div className="flex flex-column overlay">
-					<a className={project_link} href={projectList[i].website}>View Site</a>
-					<a className={project_link} href={projectList[i].github}>Github</a>
-				</div>
-
-				</div>
+					<p className="f3 mid-gray fw6 ">{projectList[i].name}</p>
+					<div className="image">
+					 <img className="projectImage" width="400px" height="300px" alt={i} src={projectList[i].image} />
+					 <div className="flex flex-column overlay">
+						<a className={project_link} href={projectList[i].website}>View Site</a>
+						<a className={project_link} href={projectList[i].github}>Github</a>
+					</div>
+					</div>
 				</Animated>
 		    </div>
 			
@@ -42,5 +41,5 @@ const Project = () => {
 		</div>
 	)
 }
-const project_link = "link mid-gray f4 pa2 hover_on_link w-50 center fw5 hover-white-80 mb3";
+const project_link = "link mid-gray  f4 pa2 center hover_on_link w-40  fw5  mb2";
 export default Project;

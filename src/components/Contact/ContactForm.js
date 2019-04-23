@@ -47,7 +47,7 @@ class ContactForm extends Component{
     })
    }   
       else{
-        this.setState({error:"*Please check your form"});
+        this.setState({error:"*Please check your form again"});
       }
 
     
@@ -56,7 +56,7 @@ class ContactForm extends Component{
 
 render(){
 	return(
-		<div className="ml3 mr3">
+		<div className="vh-100 ma0 pa0">
       {
       this.state.success? 
           <div className=" center tc ma6 pa3 f3-ns f4">
@@ -66,12 +66,12 @@ render(){
       :
           <div>
           <Animated animationIn="jello" isVisible={true} >
-    		   <h1 className=" center tc ma4 pa2 f2 f1-ns title_and_link w-30-l w-50 fw5" style={{color:"#ccac9d"}}>Contact</h1>
+    		   <h1 className="center tc ma4 pa2 f2 f1-ns title_and_link w-30-l w-50 fw5" style={{color:"#ccac9d"}}>Contact</h1>
           </Animated>
           <Animated animationIn="slideInUp" isVisible={true}>
-           <main className="pa2 mid-gray">
+           <main className="pa2 mid-gray ml2 mr2">
               <div className="measure center">
-                {this.state.error}
+                <span style={{color:"#ccac9d", fontWeight:"bold"}}>{this.state.error}</span>
                 <fieldset id="contact_form" className="ba b--transparent ph0 mh0">
 
                    <div className="mt3">

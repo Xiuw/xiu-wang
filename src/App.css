@@ -31,7 +31,19 @@
 }
 
 .title_and_link{
-   border:solid #ccac9d 1.5px;
-  border-top-left-radius: 60px;
-  border-bottom-right-radius: 60px;
+  border:solid #ccac9d 1.4px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+
+@media(max-width:769px){
+  .space{
+    display:none;
+  }
+  .icon i{
+   font-size:4rem;
+   margin:20px;
+   padding:10px;
+  }
 }
