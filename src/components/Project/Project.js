@@ -41,5 +41,5 @@ const Project = () => {
 		</div>
 	)
 }
-const project_link = "link mid-gray  f4 pa2 center hover_on_link w-40  fw5  mb2";
+const project_link = "link mid-gray f4 pa2 center hover_on_link w-40  fw5  mb2";
 export default Project;

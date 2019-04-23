@@ -1,6 +1,6 @@
 .overlay {
   position: absolute; 
-  bottom: 5%; 
+  top: 20%; 
 /*  background: rgb(0, 0, 0);*/
 /*  background: rgba(165, 128, 111, .8); */
   width: 100%;
@@ -9,7 +9,6 @@
   color: white;
  /* padding: 20px;*/
   text-align: center;
-
 }
 
 .image:hover .overlay{
