@@ -3,7 +3,7 @@ import {Animated} from "react-animated-css";
 
 const Skill = () => {
 	return(
-		<div className="">
+		<div className="vh-100">
       <Animated animationIn="jello" isVisible={true} >
           <h1 className=" w-30-l w-50 black-80 center tc ma4 pa2 f2 f1-ns title_and_link fw5" style={{color:"#ccac9d"}}>Skills</h1>
       </Animated> 
