@@ -36,7 +36,7 @@ class App extends Component {
        
           <Switch>
            <ScrollToTop>
-            <Route exact path="/" component={About}/>
+            <Route exact path="/home" component={About}/>
             <Route path="/project" component={Project}/>
             <Route path="/skill" component={Skill}/>
             <Route path="/contact" component={ContactForm}/>
