@@ -33,7 +33,6 @@ class App extends Component {
          <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
          <div className="w-20-ns w-20-m w-0 space"></div>
          <div className="w-80-ns w-80-m w-100  scrollbar force-overflow main center" id="style-1">
-       
           <Switch>
            <ScrollToTop>
             <Route exact path="/" component={About}/>
