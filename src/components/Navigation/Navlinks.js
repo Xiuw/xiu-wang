@@ -6,7 +6,7 @@ const Navlinks = () => {
 	return(
 		<div className="flex flex-column ml4 mr4">
 
-			<Link className={linkStyle} to="/home">Home</Link>
+			<Link className={linkStyle} to="/">Home</Link>
 			<Link className={linkStyle} to="project">Project</Link>
 			<Link className={linkStyle} to="skill">Skill</Link>
 			<Link className={linkStyle} to="contact">Contact</Link>	
