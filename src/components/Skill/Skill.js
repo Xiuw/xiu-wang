@@ -5,11 +5,11 @@ const Skill = () => {
 	return(
 		<div className="vh-100">
       <Animated animationIn="jello" isVisible={true} >
-          <h1 className=" w-30-l w-50 black-80 center tc ma4 pa2 f2 f1-ns title_and_link fw5" style={{color:"#ccac9d"}}>Skills</h1>
+          <h1 className=" w-30-l w-50 black-80 center tc ma4 pa2 f2 f1-ns bb fw5" style={{color:"#ccac9d"}}>Skills</h1>
       </Animated> 
            
       <Animated animationIn="slideInUp" isVisible={true}>
-		      <p className="black-80 tc ma2 f6 f6-m f4-ns pl3 pr3 mt2">
+		      <p className="black-80 tc ma4 f6 f4-ns pl3 pr3 mt5">
              *Following are the programming languages, 
               frameworks and tools I've used in my projects.
           </p>

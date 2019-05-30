@@ -4,8 +4,6 @@ import axios from 'axios';
 import {Redirect} from 'react-router-dom';
 import './ContactForm.css'
 
-
-
 class ContactForm extends Component{
    constructor(){
     super();
@@ -73,7 +71,7 @@ render(){
       :
           <div>
           <Animated animationIn="jello" isVisible={true} >
-    		   <h1 className="center tc ma4 pa2 f2 f1-ns title_and_link w-30-l w-50 fw5" style={{color:"#ccac9d"}}>Contact</h1>
+    		   <h1 className="center tc ma4 pa2 f2 f1-ns bb w-30-l w-50 fw5" style={{color:"#ccac9d"}}>Contact</h1>
           </Animated>
           <Animated animationIn="slideInUp" isVisible={true}>
            <main className="pa2 mid-gray ml2 mr2">
@@ -82,17 +80,17 @@ render(){
                 <fieldset id="contact_form" className="ba b--transparent ph0 mh0">
 
                    <div className="mt3">
-                    <label className="db fw6 lh-copy f4" forhtml="contact-name">Name</label>
-                    <input style={{borderColor:"#ccac9d"}}  className="f3 pa2 input-reset ba bw1 bg-transparent mid-gray w-100" type="text" name="name"  id="name" onChange={this.handleChange}/>
+                    <label className="db  lh-copy f4" forhtml="contact-name">Name:</label>
+                    <input style={{borderColor:"#ccac9d"}}  className="f3 pa2 input-reset ba bg-transparent mid-gray w-100" type="text" name="name"  id="name" onChange={this.handleChange}/>
                   </div>
                            
                   <div className="mt3">
-                    <label className="db fw6 lh-copy f4" forhtml="email-address">Email</label>
-                    <input style={{borderColor:"#ccac9d"}} className="f3 pa2 input-reset bw1 ba bg-transparent w-100 mid-gray" type="email" name="email"  id="email" onChange={this.handleChange}/>
+                    <label className="db lh-copy f4" forhtml="email-address">Email:</label>
+                    <input style={{borderColor:"#ccac9d"}} className="f3 pa2 input-reset  ba bg-transparent w-100 mid-gray" type="email" name="email"  id="email" onChange={this.handleChange}/>
                   </div>
                   <div className="mv3">
-                    <label className="db fw6 lh-copy f4" forhtml="message">Message</label>
-                    <textarea  style={{borderColor:"#ccac9d"}} rows="6" className="f3 pa2 input-reset ba bw1 bg-transparent w-100 mid-gray" type="text" name="message"  id="message" onChange={this.handleChange}/>
+                    <label className="db lh-copy f4" forhtml="message">Message:</label>
+                    <textarea  style={{borderColor:"#ccac9d"}} rows="6" className="f3 pa2 input-reset ba bg-transparent w-100 mid-gray" type="text" name="message"  id="message" onChange={this.handleChange}/>
                   </div>
               
                 </fieldset>
