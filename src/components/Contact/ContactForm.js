@@ -57,10 +57,7 @@ class ContactForm extends Component{
    }   
       else{
         this.setState({error:"*Please check your form again"});
-      }
-
-    
-  
+      }  
   }
 
 render(){
@@ -101,7 +98,7 @@ render(){
                 </fieldset>
                 <div className="tc">
                   <p style={{background:"#ccac9d"}} 
-                    className="fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link" 
+                    className="fw5 ph4 pa2 input-reset pointer grow f4 dib mid-gray hover-white-80 title_and_link" 
                     type="submit" value="Send Message" onClick={this.handleSubmit}>Send message</p>
                 </div>
               </div>

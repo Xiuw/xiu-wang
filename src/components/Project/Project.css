@@ -4,11 +4,12 @@
 /*  background: rgb(0, 0, 0);*/
 /*  background: rgba(165, 128, 111, .8); */
   width: 100%;
-  transition: .6s ease;
+  transition: 1s ease;
   opacity:0;
   color: white;
  /* padding: 20px;*/
   text-align: center;
+/*  filter:blur(5px);*/
 }
 
 .image:hover .overlay{
@@ -16,6 +17,7 @@
 }
 
 .image:hover .projectImage{
+   transition: .7s ease;
   filter:blur(5px);
   opacity:.4;
 }
@@ -24,8 +26,6 @@
   border:solid #ccac9d 1.5px;
   border-top-left-radius: 40px;
   border-bottom-right-radius: 40px;
-
-
 }
 
 .hover_on_link:hover{
