@@ -9,7 +9,7 @@ const SideNav = ({handleSideNav, showHideNav}) =>{
 		<div>
 			<Animated animationIn="jello" isVisible={true} >
 				<div className={showHideNav? "hidebar" : "flex navbar"}  id="style-1">
-					<div className="bar pointer fixed z-max ml4 mt4 absolute" id="delBtn" onClick={handleSideNav}> 
+					<div className="bar pointer fixed z-999 ml3 mt3 absolute" id="delBtn" onClick={handleSideNav}> 
 		                 <i style={{background:"#ccac9d",borderRadius:"10px"}} 
 		                 	className="fas fa-bars pa3 f3 white-80 hover-mid-gray"></i>     
 		            </div>
