@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/xiu-wang/static/js/runtime~main.07f03688.js"
   },
   {
-    "revision": "a404b72846074284adc5",
-    "url": "/xiu-wang/static/js/main.520071d8.chunk.js"
+    "revision": "de67115b5a7de334b9f9",
+    "url": "/xiu-wang/static/js/main.a6f4ab6f.chunk.js"
   },
   {
     "revision": "b5ccf93191eb4abbadbf",
     "url": "/xiu-wang/static/js/2.1947fa7b.chunk.js"
   },
   {
-    "revision": "a404b72846074284adc5",
+    "revision": "de67115b5a7de334b9f9",
     "url": "/xiu-wang/static/css/main.96834e4b.chunk.css"
   },
   {
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/xiu-wang/static/css/2.ae2a0331.chunk.css"
   },
   {
-    "revision": "7bd01b400bd0a4a9c8102439b0c09469",
+    "revision": "a3cc04a4b69b6db9196824439f118f22",
     "url": "/xiu-wang/index.html"
   }
 ];
