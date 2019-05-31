@@ -5,7 +5,7 @@ const Skill = () => {
 	return(
 		<div className="vh-100">
       <Animated animationIn="jello" isVisible={true} >
-          <h1 className=" w-30-l w-50 black-80 center tc ma4 pa2 f2 f1-ns bb fw5" style={{color:"#ccac9d"}}>Skills</h1>
+          <h1 className=" mw5-l w-40 black-80 center tc ma4 pa2 f2 f1-ns bb fw5" style={{color:"#ccac9d"}}>Skills</h1>
       </Animated> 
            
       <Animated animationIn="slideInUp" isVisible={true}>

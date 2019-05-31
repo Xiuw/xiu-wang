@@ -31,7 +31,7 @@
 }
 
 .title_and_link{
-  border:solid #ccac9d 2px;
+  border:solid #ccac9d .5px;
   border-radius:10px;
 /*  border-top-left-radius: 100px;
   border-bottom-right-radius: 100px;*/

@@ -19,7 +19,7 @@
 
 .dottedBorder{
   border:none;
-  border-top:10px dotted gray;
+  border-top:8px dotted gray;
   color:#fff;
 }
 
@@ -39,8 +39,6 @@
   from {opacity:0;}
   to {opacity:1;}
 }
-
-
 
 
 @media(min-width:770px){

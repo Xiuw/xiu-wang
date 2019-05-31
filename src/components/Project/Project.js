@@ -25,7 +25,7 @@ const Project = () => {
 	return(
 		<div className="">
 			<Animated animationIn="jello" isVisible={true} >
-				<h1 className="w-30-l w-50 black-80 center tc ma4 pa2 f2 f1-ns fw5 bb " style={{color:"#ccac9d"}}>Projects</h1>
+				<h1 className="mw5-l w-40 black-80 center tc ma4 pa2 f2 f1-ns fw5 bb " style={{color:"#ccac9d"}}>Projects</h1>
 			</Animated>
 			<div className="flex justify-center flex-rows flex-wrap mt4">
 				{displayList}
@@ -41,5 +41,6 @@ const Project = () => {
 		</div>
 	)
 }
-const project_link = "link grow mid-gray f4 pa2 center hover_on_link w-40  fw5  mb2";
+const project_link = "link grow mid-gray f4 pa2 center hover_on_link hover-white-80 w-40 fw5 mb2";
+
 export default Project;

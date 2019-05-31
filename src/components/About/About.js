@@ -14,21 +14,21 @@ const About = () =>{
                 <img src={xiu} className="grow dib center br-100 h4 w3.5  ml3 pic " alt="xiu"/> 
             
                 <p className="b pa3 f3 tc ma2" style={{color:"#ccac9d"}}>Web Developer</p>
-                <hr className="dottedBorder w-50 w-40-ns"></hr>
-                <p className="lh-copy fw5 f4 i" style={{color:"#ccac9d"}}>
+                <hr className="dottedBorder w-50 mw5-ns"></hr>
+                <p className="lh-copy fw5 f4 i ma2 " style={{color:"#ccac9d"}}>
                   Responsive web design 
                   <span className="fs-normal mid-gray fw6"> | </span>
                   Front-end application <span className="fs-normal fw6 mid-gray"> | </span> 
                   Back-end application
                 </p>
                 
-              <div className="flex  justify-center list pl0 mt5">
+              <div className="flex  justify-center list pl0 mt5 ml2 mr2">
 
                  <li className="about-link tc"> 
-                    <Link className="ba pa2 link  ph4 title_and_link mid-gray"  to="project">Projects</Link>
+                    <Link className="ba pa2 link  ph4 title_and_link mid-gray f4"  to="project">Projects</Link>
                  </li>
                  <li className="about-link tc ml3">
-                    <Link className="ba pa2 link ph4 title_and_link mid-gray" to="contact">Contact</Link>
+                    <Link className="ba pa2 link ph4 title_and_link mid-gray f4 " to="contact">Contact</Link>
                  </li>
               </div>
             </div>       

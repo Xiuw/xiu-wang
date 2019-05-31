@@ -9,11 +9,11 @@ const Navigation = () =>{
 	return(
 	<div className="scrollbar w-20-l vh-100 tc force-overflow nav fixed" id="style-1">
 		<Animated animationIn="jello" isVisible={true} >
-			<div className="ma3 ">
+			<div className="ma3 mw5 center">
 				<Link className="no-underline"to="/">
-					<div className="pa3 ma2 ma4-ns grow gray bg-washed-yellow myName">
-						<p className="f3 ma0 pa0">Xiu</p> 
-						<p className="b f3 ma0 pa1">Wang</p>
+					<div className=" ma4 pa3 grow gray bg-washed-yellow br4">
+						<p className="f3 ma1">Xiu</p>
+						<p className="b f3 ma1">Wang</p>  		
 					</div>
 				</Link>		
 			</div>

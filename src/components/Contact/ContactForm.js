@@ -71,7 +71,7 @@ render(){
       :
           <div>
           <Animated animationIn="jello" isVisible={true} >
-    		   <h1 className="center tc ma4 pa2 f2 f1-ns bb w-30-l w-50 fw5" style={{color:"#ccac9d"}}>Contact</h1>
+    		   <h1 className="center tc ma4 pa2 f2 f1-ns bb w-40 fw5 mw5-l" style={{color:"#ccac9d"}}>Contact</h1>
           </Animated>
           <Animated animationIn="slideInUp" isVisible={true}>
            <main className="pa2 mid-gray ml2 mr2">
