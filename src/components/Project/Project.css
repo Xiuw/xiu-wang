@@ -12,6 +12,7 @@
   opacity:1;
 }
 
+
 .image:hover .projectImage{
   transition: 1s ease-in;
   filter:blur(5px);
@@ -26,4 +27,19 @@
 .hover_on_link:hover{
     background:#ccac9d;
 }
+@media(max-width:600px){
+  .projectImage{
+    width:325px;
+    height:250px;
+  }
+ 
+}
+@media(max-width:376px){
+  .projectImage{
+    width:325px;
+    height:230px;
+  }
+ 
+}
+
 

@@ -71,7 +71,7 @@ render(){
       :
           <div>
           <Animated animationIn="jello" isVisible={true} >
-    		   <h1 className="center tc ma4 pa2 f2 f1-ns bb w-40 fw5 mw5-l" style={{color:"#ccac9d"}}>Contact</h1>
+    		   <h1 className="center tc ma4 pa2 f2 f1-ns bb w-40 fw5 mw5-l shadowE" style={{color:"#ccac9d"}}>Contact</h1>
           </Animated>
           <Animated animationIn="slideInUp" isVisible={true}>
            <main className="pa2 mid-gray ml2 mr2">
@@ -94,7 +94,7 @@ render(){
                   </div>
               
                 </fieldset>
-                <div className="tc">
+                <div className="tc mb6">
                   <p style={{background:"#ccac9d"}} 
                     className="fw5 ph4 pa2 input-reset pointer grow f4 dib mid-gray hover-white-80 title_and_link" 
                     type="submit" value="Send Message" onClick={this.handleSubmit}>Send message</p>

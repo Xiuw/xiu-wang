@@ -23,17 +23,17 @@ const Project = () => {
 		)
 	})
 	return(
-		<div className="">
+		<div className="vh-100">
 			<Animated animationIn="jello" isVisible={true} >
-				<h1 className="mw5-l w-40 black-80 center tc ma4 pa2 f2 f1-ns fw5 bb " style={{color:"#ccac9d"}}>Projects</h1>
+				<h1 className="mw5-l w-40 black-80 center tc ma4 pa2 f2 f1-ns fw5 bb shadowE " style={{color:"#ccac9d"}}>Projects</h1>
 			</Animated>
 			<div className="flex justify-center flex-rows flex-wrap mt4">
 				{displayList}
 			</div>
-			 <div className="tc ma4 mb5">
+			 <div className="tc mb6">
               <a href="https:github.com/xiuw">
               	<p style={{background:"#ccac9d"}} 
-              	   className="fw5 grow ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link"
+              	   className="fw5  grow ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link"
               	>More on Github
               	</p>
               </a>	
