@@ -61,17 +61,17 @@ render(){
   console.log(this.state.success)
   return(
     <div className="w-100 ma0 pa0" id="contact">
-      {
-      this.state.success? 
-          <div className=" center tc ma6 pa3 f3-ns f4">
-            <p className="ma3 mid-gray">Your message has been successfully sent.</p>
-            <p className="mt5 link dim pointer b" style={{color:"#ccac9d"}} onClick={this.handleReturn}>Click to send another message</p>
-          </div>
-      :
+    
           <div>
   
            <h1 className="center tc ma4 pa2 f2 f1-ns bb w-40 fw5 mw5-l shadowE" style={{color:"#ccac9d"}}>Contact</h1>
-          
+            {
+            this.state.success? 
+          <div className=" vh-80 center tc ma6 pa3 f3-ns f4">
+            <p className="ma4-ns ma2 mid-gray">Your message has been successfully sent.</p>
+            <p className="mb6 fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link" style={{background:"#ccac9d"}} onClick={this.handleReturn}>Send another message</p>
+          </div>
+          :
            <main className="pa2 mid-gray ml2 mr2">
             <p className="mid-gray tc f6 f4-ns mt3">
              I'll be glad to hear from you!
@@ -102,8 +102,9 @@ render(){
                 </div>
               </div>
             </main>
+          }
           </div>
-      } 
+      
       
       <p className="f6 db b ttu lh-solid mid-gray tc pa2">© 2019 Xiu Wang.</p>
 

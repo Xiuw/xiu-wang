@@ -35,11 +35,13 @@ const Project = () => {
 				{displayList}
 			</div>
 			 <div className="tc mb6">
-              <a href="https:github.com/xiuw">
-              	<p style={{background:"#ccac9d"}} 
-              	   className="fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link"
-              	>More on Github
-              	</p>
+              <a href="https://github.com/Xiuw"
+                 style={{background:"#ccac9d"}}  
+              	 className=" link fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link">
+              
+              	  
+              	More on Github
+             
               </a>	
             </div>
 		</div>
