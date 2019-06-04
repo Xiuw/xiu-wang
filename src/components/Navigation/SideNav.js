@@ -15,14 +15,13 @@ const SideNav = ({handleSideNav, showHideNav}) =>{
 
             <div className={showHideNav? "side-nav scrollbar force-overflow" : "side-nav hide"} id="style-1">
                	
-            	<div className="pointer ml3 mt3" onClick={handleSideNav}> 
-            		<i className=" fas fa-backspace mid-gray pa3 f3 dim"></i>
+            	<div className="" onClick={handleSideNav}> 
+            		<i className=" fas fa-backspace mid-gray pa3 f3 ml3 mt3 pointer"></i>
 	            </div>
 		            
 				<div className="tc" onClick={handleSideNav}>
 				  	<Navlinks/>	
 				</div>
-				<hr className="mw4 bb center bw1 b--white-50 mt3 mb3"/>
 				<Contact/>
             </div>
        

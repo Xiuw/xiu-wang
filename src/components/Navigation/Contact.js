@@ -4,35 +4,36 @@ import'./Nav.css';
 
 const Contact = () => {
 	return(
-		<div>
-		
-		{/*<hr className="mw3 mw4-l bb center bw1 b--white-50  "/>*/}
-		<ul className="flex flex-column list pl0 justify-center ml4 mr4 ">
-    
-	        <li><a className={linkStyle} href="mailto:Sylvi.xw@gmail.com">
-	              <i className="fas fa-envelope-open dib w1 h1"></i>	
-	              <span className="f5 mt1">Gmail</span>
-	        </a> </li>
+		<div className="w-100">
+		   <hr className=" w-70 bb center b--washed-yellow "/>
+		<div className="flex flex-column ml4 mr4 center w4 mt2">
+
+			<a className={linkStyle} href={pdf} target= "_blank" rel="noopener noreferrer">
+        		<i className=" w-40 tc fas fa-download dib mid-gray"></i>
+				<span className="w-60 tl f5 mid-gray">Resume</span>
+			</a>		
             
-          	<li><a className={linkStyle} href="https://github.com/xiuw" title="GitHub">
-	     		<i className="fab fa-github dib w1 h1"></i>
-	            <span className="f5 mt1">GitHub</span>
-           	</a></li>
+          	<a className={linkStyle} href="https://github.com/xiuw" target="_blank" rel="noopener noreferrer" title="GitHub">
+	     		<i className="w-40 tc fab fa-github dib"></i>
+	            <span className="w-60 tl f5 ">GitHub</span>
+           </a>
 
-           {/*<li><a className={linkStyle} href="https://www.linkedin.com/in/xiu-wang-4784a8114/" title="LinkedIn">
-           		<i className="fab fa-linkedin dib w1 h1"></i>
-	            <span className="f5 mt1">LinkedIn</span>
-           </a></li>
-      		*/}		
-        </ul>
 
-        <a className="grow dim no-underline b flex flex-column items-center ma4" href={pdf} target= "_blank" rel="noopener noreferrer">
-				<p className="dim pa2 ma1 f5 mid-gray">Resume</p>
-				<i className="fas fa-download dim mid-gray"></i>
-		</a>
+		   <a className={linkStyle} href="mailto:sylvi.xw@gmail.com">
+	          <i className="w-40 tc fas fa-envelope-open dib"></i>	
+	         <span className="w-60 tl f5">Gmail</span>
+	       </a> 
+
+       {/*<a className={linkStyle} href="https://www.linkedin.com/in/xiu-wang-4784a8114/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+           		<i className="w-40 tc fab fa-linkedin dib"></i>
+	            <span className="w-60 tl f5">LinkedIn</span>
+           </a>*/}
+	
+        </div>
+   
 
         </div>
 	)
 }
-const linkStyle=" grow dim no-underline washed-yellow flex flex-column items-center ma2 b pa2";
+const linkStyle="dim no-underline mid-gray flex flex-rows pt3 pb3 b";
 export default Contact;

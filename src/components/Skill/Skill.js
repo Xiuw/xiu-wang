@@ -1,14 +1,10 @@
 import React from 'react';
-import {Animated} from "react-animated-css";
 
 const Skill = () => {
 	return(
-		<div className="vh-100">
-      <Animated animationIn="jello" isVisible={true} >
+		<div className="" id="skill" >
           <h1 className=" mw5-l w-40 black-80 center tc ma4 pa2 f2 f1-ns bb fw5 shadowE" style={{color:"#ccac9d"}}>Skills</h1>
-      </Animated> 
-           
-      <Animated animationIn="slideInUp" isVisible={true}>
+  
 		      <p className="mid-gray tc ma4 f6 f4-ns pl3 pr3 mt5">
              *Following are the programming languages, 
               frameworks and tools I've used in my projects.
@@ -65,7 +61,7 @@ const Skill = () => {
                     <p>NPM</p>
                 </div>
               </div>
-        </Animated>
+          <hr className=" w-90 bb center b--black-40 "/>
 		</div>
 	)
 }

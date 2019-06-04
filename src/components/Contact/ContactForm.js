@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Animated} from "react-animated-css";
 import axios from 'axios';
 import {Redirect} from 'react-router-dom';
 import './ContactForm.css'
@@ -60,23 +59,24 @@ class ContactForm extends Component{
 
 render(){
   console.log(this.state.success)
-	return(
-		<div className="vh-100 ma0 pa0">
+  return(
+    <div className="w-100 ma0 pa0" id="contact">
       {
       this.state.success? 
           <div className=" center tc ma6 pa3 f3-ns f4">
             <p className="ma3 mid-gray">Your message has been successfully sent.</p>
-            <p className="mt5 link dim pointer b" style={{color:"#ccac9d"}} onClick={this.handleReturn}>Click here to return</p>
+            <p className="mt5 link dim pointer b" style={{color:"#ccac9d"}} onClick={this.handleReturn}>Click to send another message</p>
           </div>
       :
           <div>
-          <Animated animationIn="jello" isVisible={true} >
-    		   <h1 className="center tc ma4 pa2 f2 f1-ns bb w-40 fw5 mw5-l shadowE" style={{color:"#ccac9d"}}>Contact</h1>
-          </Animated>
-          <Animated animationIn="slideInUp" isVisible={true}>
+  
+           <h1 className="center tc ma4 pa2 f2 f1-ns bb w-40 fw5 mw5-l shadowE" style={{color:"#ccac9d"}}>Contact</h1>
+          
            <main className="pa2 mid-gray ml2 mr2">
+            <p className="mid-gray tc f6 f4-ns mt3">
+             I'll be glad to hear from you!
+            </p>
               <div className="measure center">
-                <span style={{color:"#ccac9d", fontWeight:"bold"}}>{this.state.error}</span>
                 <fieldset id="contact_form" className="ba b--transparent ph0 mh0">
 
                    <div className="mt3">
@@ -92,22 +92,23 @@ render(){
                     <label className="db lh-copy f4" forhtml="message">Message:</label>
                     <textarea  style={{borderColor:"#ccac9d"}} rows="6" className="f3 pa2 input-reset ba bg-transparent w-100 mid-gray" type="text" name="message"  id="message" onChange={this.handleChange}/>
                   </div>
-              
+                
                 </fieldset>
-                <div className="tc mb6">
+                <span style={{color:"#ccac9d", fontWeight:"bold"}}>{this.state.error}</span>
+                <div className="tc mb5">
                   <p style={{background:"#ccac9d"}} 
-                    className="fw5 ph4 pa2 input-reset pointer grow f4 dib mid-gray hover-white-80 title_and_link" 
+                    className="fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link" 
                     type="submit" value="Send Message" onClick={this.handleSubmit}>Send message</p>
                 </div>
               </div>
             </main>
-          </Animated>
           </div>
-      }
-  
+      } 
+      
+      <p className="f6 db b ttu lh-solid mid-gray tc pa2">© 2019 Xiu Wang.</p>
 
-		</div>
-	)
+    </div>
+  )
 }
 }
 

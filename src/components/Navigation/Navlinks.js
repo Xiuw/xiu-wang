@@ -1,31 +1,33 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import "./Nav.css"
 
 const Navlinks = () => {
 	return(
-		<div className="flex flex-column ml4 mr4">
+		<div className="flex flex-column ml4 mr4 center w4">
 
-			<Link className={linkStyle} activeClassName='is-active' to="/">
-				<i className="fas fa-home dib w1 h1"></i> 
-				<span className="f5 mt1">Home</span>
-			</Link>
-			<Link className={linkStyle} to="project">
-				<i className="fas fa-laptop-code dib w1 h1"></i> 
-				<span className="f5 mt1">Project</span>
-			</Link>
-			<Link className={linkStyle} to="skill">
-				<i className="fas fa-pencil-ruler dib w1 h1"></i> 
-				<span className="f5 mt1">Skill</span>
-			</Link>
-			<Link className={linkStyle} to="contact">
-				<i className="fas fa-paper-plane dib w1 h1"></i> 
-				<span className="f5 mt1">Contact</span>
-			</Link>
+			<a className={linkStyle}  href="#home">
+				<i className="w-40 tc fas fa-home dib"></i> 
+				<span className="w-60 tl f5">Home</span>
+			</a>
+
+			<a className={linkStyle} href="#project">
+
+				<i className="w-40 tc fas fa-laptop-code dib"></i> 
+				<span className=" w-60 tl f5">Project</span>
+			</a>
+			<a className={linkStyle} href="#skill">
+				
+				<i className="w-40 tc w1 tl fas fa-pencil-ruler dib"></i>
+				<span className="w-60 tl f5">Skill</span>
+			</a>
+			<a className={linkStyle} href="#contact">
+				<i className="w-40 tc fas fa-paper-plane dib"></i> 
+				<span className="w-60 tl f5">Contact</span>
+			</a>
 		</div>
 		
 	)
 }
-const linkStyle = "grow dim no-underline washed-yellow flex flex-column items-center ma2 b pa2"
+const linkStyle = "dim no-underline washed-yellow flex flex-rows b pt3 pb3"
 
 export default Navlinks;
