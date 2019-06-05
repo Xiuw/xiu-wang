@@ -14,7 +14,7 @@ const Homepage = () =>{
             
                 <p className="b pa3 f3 tc ma2" style={{color:"#ccac9d"}}>Web Developer</p>
                 <hr className="dottedBorder w-50 mw5-ns"></hr>
-                <p className="lh-copy fw5 f4 i ma2 " style={{color:"#ccac9d"}}>
+                <p className="lh-copy fw5 f4 i ma3 " style={{color:"#ccac9d"}}>
                   Responsive web design 
                   <span className="fs-normal mid-gray fw6"> | </span>
                   Front-end application <span className="fs-normal fw6 mid-gray"> | </span> 

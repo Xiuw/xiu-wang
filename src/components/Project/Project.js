@@ -15,8 +15,12 @@ const Project = () => {
 					 <div className="flex flex-column overlay">
 					 	<div className="plink flex flex-column">
 						<a className="mb2 link mid-gray f4 pa2 w4 center title_and_link hover-white-80 hover_on_link" 
+						   target="_blank"
+						   rel="noopener noreferrer"
 						   href={projectList[i].website}>View Site</a>
 						<a className="link mid-gray f4 pa2 center w4 title_and_link hover-white-80 hover_on_link" 
+						   target="_blank"
+						   rel="noopener noreferrer"
 						   href={projectList[i].github}>Github</a>
 						</div>
 					</div>
