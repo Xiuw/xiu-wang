@@ -27,9 +27,9 @@
 }
 
  @-webkit-keyframes grow-effect{
- from {transform: scale(.8);}
- 50%{transform: scale(1);}
-  to {transform: scale(.8);}
+ from {transform: scale(1);}
+ 50%{transform: scale(1.2);}
+  to {transform: scale(1);}
 }
 
 @-webkit-keyframes showit {

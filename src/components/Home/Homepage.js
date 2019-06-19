@@ -21,8 +21,12 @@ const Homepage = () =>{
                   Back-end application
                 </p>
                 
-              <div className="flex justify-center list pl0 mt5 link-effect">
-                <a className="ba pa1 link ph4 title_and_link mid-gray f4"  href="#project"><i className="fas fa-arrow-down"></i></a>  
+              <div className="flex justify-center list pl0 mt5 ">
+                <a className="fw5 ph4 pa2 input-reset pointer f4 dib mid-gray br3 ba link-effect"
+                   style={{borderColor:"#ccac9d"}}  
+                   href="#project">
+                    <i className="fas fa-arrow-down"></i>
+                </a>  
               </div>
             </div>       
           </div>

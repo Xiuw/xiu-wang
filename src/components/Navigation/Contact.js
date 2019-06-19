@@ -32,5 +32,5 @@ const Contact = () => {
         </div>
 	)
 }
-const linkStyle="dim no-underline mid-gray flex flex-rows pt3 pb3 b";
+const linkStyle="dim no-underline washed-yellow flex flex-rows pt3 pb3 b";
 export default Contact;

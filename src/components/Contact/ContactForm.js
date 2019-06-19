@@ -69,7 +69,7 @@ render(){
             this.state.success? 
           <div className=" vh-80 center tc ma6 pa3 f3-ns f4">
             <p className="ma4-ns ma2 mid-gray">Your message has been successfully sent.</p>
-            <p className="mb6 fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link" style={{background:"#ccac9d"}} onClick={this.handleReturn}>Send another message</p>
+            <p className="mb6 fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link br3" style={{background:"#ccac9d"}} onClick={this.handleReturn}>Send another message</p>
           </div>
           :
            <main className="pa2 mid-gray ml2 mr2">
@@ -97,7 +97,7 @@ render(){
                 <span style={{color:"#ccac9d", fontWeight:"bold"}}>{this.state.error}</span>
                 <div className="tc mb5">
                   <p style={{background:"#ccac9d"}} 
-                    className="fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 title_and_link" 
+                    className="link fw5 ph4 pa2 input-reset pointer f4 dib mid-gray hover-white-80 br3" 
                     type="submit" value="Send Message" onClick={this.handleSubmit}>Send message</p>
                 </div>
               </div>
