@@ -14,7 +14,8 @@ const Footer = () =>{
 		     		<i className="fab fa-github dib pr2 greenC"><span className="pl2 black-70">GitHub</span></i>
 	           </a>
 
-	           <a className="tc center fw5 f5 dim no-underline  flex justify-center pt3 pb3" href="https://drive.google.com/open?id=1l3Du-pobFkG0sTcPLna6vDpCFoSj2o1v" target= "_blank" rel="noopener noreferrer">
+	           <a className="tc center fw5 f5 dim no-underline  flex justify-center pt3 pb3" 
+	           	  href="https://drive.google.com/open?id=1Qe9GR1SgcjAPtAiTOqvc5lFSu__KSGB1" target= "_blank" rel="noopener noreferrer">
 					 <i className="fas fa-download dib greenC"></i><span className="pl2 black-70">Resume</span>
 				</a>
 

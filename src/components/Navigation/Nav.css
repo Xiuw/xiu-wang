@@ -24,7 +24,7 @@
 	right:10px;
 }
 .bar-line{
-  width: 40px;
+  width: 36px;
   height: 5px;
   background-color:var(--color-two);
  /* background-color: rgb(0,0,0,.7);*/
@@ -33,14 +33,14 @@
 }
 
 .myInitial{
-	position:absolute;
+	position:fixed;
 	z-index:200;
 	top:10px;
 	left:10px;
 }
 
 .myInit{
-	position:absolute;
+	position:fixed;
 	z-index:200;
 	top:14px;
 	left:10px;

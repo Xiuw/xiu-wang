@@ -26,7 +26,7 @@ const Navlinks = () => {
 				<i className="w-50 greenC tc fas fa-paper-plane dib"></i> 
 				<span className="w-50 tl f5">Contact</span>
 			</a>
-			<a className={linkStyle} href="https://drive.google.com/open?id=1l3Du-pobFkG0sTcPLna6vDpCFoSj2o1v" target= "_blank" rel="noopener noreferrer">
+			<a className={linkStyle} href="https://drive.google.com/open?id=1Qe9GR1SgcjAPtAiTOqvc5lFSu__KSGB1" target= "_blank" rel="noopener noreferrer">
 			   <i className="w-50 greenC tc fas fa-download dib"></i>
 			   <span className="w-50 tl f5">Resume</span>
 			</a>

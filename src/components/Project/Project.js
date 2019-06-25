@@ -11,7 +11,7 @@ const Project = () => {
 				   		 width="400px" height="300px" 
 				   		 alt={i} src={projectList[i].image} />
 				   
-				   	<p className="project-title black-70 pa2 w-60 f3 fw5" 
+				   	<p className="project-title black-70 pa2 w-70 f3-ns f4 fw5" 
 				   	  >{projectList[i].name}</p>
 
 				   <div className="text flex flex-column w-30 ma0">

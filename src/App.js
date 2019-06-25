@@ -23,18 +23,16 @@ class App extends Component {
 
 
   render() {
-    console.log(window.pageYOffset);
-    // console.log("Bar" + " "+ this.state.bar);
     return (
         <div className="flex" onScroll={this.handleScroll}>
         <SideNav handleSideNav = {this.onHandleSideNav} showHideNav ={this.state.sideNavOpen}/>
-         <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
-         <div className="w-100 vh-100 scrollbar force-overflow main center" id="style-1">
-         <Homepage />
-         <Project/> 
-         <Skill/>      
-         <ContactForm/>
-         <Footer/>
+        <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
+        <div className="w-100">
+           <Homepage />
+           <Project/> 
+           <Skill/>      
+           <ContactForm/>
+           <Footer/>
         </div>
       </div>
     );
