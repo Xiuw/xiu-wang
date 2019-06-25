@@ -1,37 +1,39 @@
 import React from 'react';
-import xiu from './xiu.jpg';
 import './Homepage.css';
+
 
 const Homepage = () =>{
 	return(
-    <div id="home">
-		<article className="dt vh-100 w-100 black-80 tc" >
+    <div className="frontBg" id="home">
+      
+		<article className="dt vh-100 w-100 tc " >
           <div className=" dtc v-mid ph4-l">
-             <div className="show">
-                <p className=" pa2 ma0 name-style tc f-subheadline-l" style={{color:"#ccac9d"}}> Xiu <span className="gray">Wang</span></p>
-              
-                <img src={xiu} className="grow dib center br-100 h4 w3.5" alt="me"/> 
+             <div className="">
+             <div className="measure-wide center">
+             <p className="pa3 f2 tc ma2 greenC animated slideInDown">I'm</p>  
+                <h1 className=" pa2 ma0 name-style tc f-subheadline-l animated slideInLeft slow black-70"> Xiu <span className="greenC">Wang,</span></h1>
+                
+                <p className=" black-70 pa3 f2-ns tc ma2 animated slideInRight f3">a web developer.</p>
+             </div>
             
-                <p className="b pa3 f3 tc ma2" style={{color:"#ccac9d"}}>Web Developer</p>
-                <hr className="dottedBorder w-50 mw5-ns"></hr>
-                <p className="lh-copy fw5 f4 i ma3 " style={{color:"#ccac9d"}}>
-                  Responsive web design 
-                  <span className="fs-normal mid-gray fw6"> | </span>
-                  Front-end application <span className="fs-normal fw6 mid-gray"> | </span> 
-                  Back-end application
+             <div className="center w4 bt pa2 greenC bw1 animated slideInLeft"></div>
+                <p className="lh-copy fw5 f5 ma3 greenC mt4 animated slideInRight slow mt3">
+                  Responsive web design
+                  <i className="fas fa-star f6 pl2 pr2 yellowC animated infinite tada delay-2s"></i> 
+                  Front-end development 
+                  <i className="fas fa-star f6 pl2 pr2 yellowC animated infinite tada delay-2s"></i> 
+                  Back-end development
                 </p>
                 
-              <div className="flex justify-center list pl0 mt5 ">
-                <a className="fw5 ph4 pa2 input-reset pointer f4 dib mid-gray br3 ba link-effect"
-                   style={{borderColor:"#ccac9d"}}  
+              <div className="flex justify-center list pl0 mt5 animated slideInUp">
+                <a className="fw5 ph3 pa2 pointer f4 dib black-80 link-effect"
                    href="#project">
-                    <i className="fas fa-arrow-down"></i>
+                    <i className="fas fa-chevron-down"></i>
                 </a>  
               </div>
             </div>       
-          </div>
+          </div>  
     </article>
-    <hr className=" w-90 bb center b--black-40 "/>
     </div>
 	 )
 }

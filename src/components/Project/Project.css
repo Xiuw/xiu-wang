@@ -1,47 +1,51 @@
-.hover-effect:hover{
-   background-color:#ccac9d;
-   
-}
 .container {
   position: relative;
 }
-
-.container:hover .text {
+.container:hover{
+  border:solid 1px;
+}
+.container:hover .project-title{
   opacity: 1;
+  transition: .5s ease-in;
 }
 
-.container:hover .blurImage{
-    filter: blur(8px);
-      transition: .5s ease;
-  -webkit-filter: blur(8px);
+.container:hover .text{
+  opacity: 1;
+  transition: .5s ease-in;
 }
-.text {
-  transition: .6s ease;
+
+.project-title{
   position: absolute;
-  top: 45%;
+  top: 10%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
   opacity:0;
-  border-color:#ccac9d;
+
 }
-.text:hover{
-  background-color:#ccac9d;
+.container:hover .blurImage{
+    opacity:0;
+    transition: .5s ease-in; 
 }
+.text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity:0;
+  color:rgb(0,0,0,.7);
+}
+.bgc{
+  background:rgba(255,255,255,.5);
+}
+
 @media(max-width:600px){
   .projectImage{
-    width:325px;
-    height:250px;
-  }
- 
-}
-@media(max-width:376px){
-  .projectImage{
-    width:325px;
+    width:300px;
     height:230px;
   }
  
 }
-

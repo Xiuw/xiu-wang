@@ -1,28 +1,34 @@
 import React from 'react';
-import Contact from './Contact'
 import Navlinks from './Navlinks';
 import './Nav.css';
 
-const SideNav = ({handleSideNav, showHideNav}) =>{
+const SideNav = ({handleSideNav, showHideNav,showHideMenu}) =>{
 	return(
 		<div>
-
-			<div id="style-1">
-				<div className="bar"  onClick={handleSideNav}> 
-	                 <i className="fas fa-bars pa3 f3 white-80 pointer"></i>     
+		 
+			<a className="" href="/">
+			  <p className="myInit pointer f2 pa2 greenC ma0 animated slideInLeft slow">XW </p>
+              <p className="grow myInitial f2 pointer pa2 black-70 ma0 animated slideInLeft slow">XW</p>    
+        	</a>
+         		
+      	
+			<div>
+				<div className="bar pa2  animated slideInRight slow"  onClick={handleSideNav}> 
+	                 <div className="bar-line"></div>
+					<div className="bar-line"> </div>
+					<div className="bar-line"></div>     
 	            </div>
             </div>
 
             <div className={showHideNav? "side-nav scrollbar force-overflow" : "side-nav hide"} id="style-1">
                	
-            	<div className="" onClick={handleSideNav}> 
-            		<i className=" fas fa-backspace mid-gray pa3 f3 ml3 mt3 pointer"></i>
-	            </div>
+            	{/*<div className="bar" onClick={handleSideNav}> 
+            		<i className=" fas fa-times mid-gray f2 pa2 pointer"></i>
+	            </div>*/}
 		            
 				<div className="tc" onClick={handleSideNav}>
 				  	<Navlinks/>	
 				</div>
-				<Contact/>
             </div>
        
         </div>    

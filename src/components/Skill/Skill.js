@@ -1,67 +1,61 @@
 import React from 'react';
-
+import Tilt from 'react-tilt';
 const Skill = () => {
 	return(
-		<div className="" id="skill" >
-          <h1 className=" mw5-l w-40 black-80 center tc ma4 pa2 f2 f1-ns bb fw5 shadowE" style={{color:"#ccac9d"}}>Skills</h1>
-  
-		      <p className="mid-gray tc ma4 f6 f4-ns pl3 pr3 mt5">
-             *Following are the programming languages, 
-              frameworks and tools I've used in my projects.
-          </p>
-
-              <div className="flex justify-center flex-wrap ma5 icon mid-gray tc b">
-                <div className="grow">
+		<div className="pb5" id="skill"  >
+          <h1 className=" center w-100 w7 w5-ns tc pa3 mt0 fw4 header-title">Skill</h1>
+              <div className="flex justify-center flex-wrap icon black-70 tc center mw7 mt5">
+                <Tilt className="Tilt pa2" options={{max:100}}>
                      <i className="devicon-html5-plain colored"></i> 
-                     <p>HTML5</p>
-                </div>
-                    <div className="grow">
+                     <p className="">HTML5</p>
+                </Tilt>
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                      <i className="devicon-css3-plain colored grow"></i>
-                    <p>CSS3</p>
-                </div>
-                <div className="grow">
+                    <p className="">CSS3</p>
+                </Tilt>
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                     <i className="devicon-bootstrap-plain colored grow"></i> 
-                   <p>Bootstrap</p>
-                </div>
-                <div className="grow">
+                   <p className="">Bootstrap</p>
+                </Tilt>
+                <Tilt className="Tilt pa2" options={{max:100}}>
                    <i className="devicon-react-original colored grow"></i> 
-                   <p>React</p>
-                </div> 
+                   <p className="">React</p>
+                </Tilt> 
 
-                <div className="grow">      
+                 <Tilt className="Tilt pa2" options={{max:100}}>     
                     <i className="devicon-javascript-plain colored grow" ></i>
-                   <p>Javascript</p>
-                </div>
-                <div className="grow">
+                   <p className="">Javascript</p>
+                </Tilt>
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                     <i className="devicon-postgresql-plain colored grow"></i>
-                   <p>Postgresql</p>
-                </div>
-                <div className="grow">
+                   <p className="">Postgresql</p>
+                </Tilt>
+                <div className="grow pa2">
                     <i className="devicon-nodejs-plain colored grow"></i>
-                   <p>Node.js</p>
+                   <p className="">Node.js</p>
                 </div>
-                <div className="grow">
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                    <i className="devicon-express-original colored grow"></i>
-                   <p>Express.js</p>
-                </div>
-                <div className="grow">
+                   <p className="">Express.js</p>
+                </Tilt>
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                     <i className="devicon-heroku-original colored grow"></i>
-                   <p>Heroku</p>
-                </div>
-                <div className="grow">
+                   <p className="">Heroku</p>
+                </Tilt>
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                     <i className="devicon-github-plain colored grow"></i>
-                   <p>Github</p>
-                </div>
-                <div className="grow">
+                   <p className="">Github</p>
+                </Tilt>
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                     <i className="devicon-git-plain black grow"></i>
-                   <p>Git</p>
-                </div>
-                <div className="grow">
+                   <p className="">Git</p>
+                </Tilt>
+                 <Tilt className="Tilt pa2" options={{max:100}}>
                     <i className="fab fa-npm dark-red" style={{marginTop:"0px", marginBottom:"0px", padding:"0px 5px", fontWeight:"normal"}}></i>
-                    <p>NPM</p>
-                </div>
-              </div>
-          <hr className=" w-90 bb center b--black-40 "/>
+                    <p className="">NPM</p>
+                </Tilt>
+              </div> 
+            
 		</div>
 	)
 }
