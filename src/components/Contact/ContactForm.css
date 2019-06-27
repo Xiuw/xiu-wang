@@ -1,3 +1,26 @@
+textarea,input:focus{
+  outline:none;
+}
+::-webkit-input-placeholder{
+  color:var(--color-one);
+  font-weight:600;
+};
+
+::-moz-placeholder{
+  color:var(--color-one);
+  font-weight:600;
+};
+
+:-moz-placeholder{
+   color:var(--color-one);
+  font-weight:600;
+};
+
+:--ms-input-placeholder{
+   color:var(--color-one);
+  font-weight:600;
+};
+
 .lds-ring {
   display: inline-block;
   position: relative;

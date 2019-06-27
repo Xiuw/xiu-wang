@@ -1,10 +1,10 @@
-.frontBg{
-  background-image: linear-gradient(to bottom, var(--color-one), white);
+.bgPolygon {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
 }
-.name-style{
-	font-size:60px;
+.homeBorderRadius{
+   border-top-right-radius:250px;
 }
-
 .link-effect{
   -webkit-animation-name: grow-effect;
   -webkit-animation-duration: 2s;
@@ -14,25 +14,27 @@
   animation-delay:1s;
 }
 .link-effect:hover{
-  color:var(--color-two);
+  color:var(--color-one);
 }
 
 .link-effect:hover{
    -webkit-animation-name: none;
 }
+.myInitial{
+  position:absolute;
+  z-index:200;
+  top:10px;
+  left:10px;
+}
+.myInit{
+  position:absolute;
+  z-index:200;
+  top:14px;
+  left:10px;
+}
+
  @-webkit-keyframes grow-effect{
  from {transform: scale(1);}
  50%{transform: scale(1.5);}
   to {transform: scale(1);}
-}
-
-
-@media(min-width:770px){
-	.hidelink{
-		display:none;
-	}
-  
-  .nameStyle{
-    font-size:60px;
-  }
 }

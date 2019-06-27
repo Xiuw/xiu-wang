@@ -1,7 +1,7 @@
 .side-nav{
 	padding:30px;
 	height:350px;
-	background:linear-gradient(to bottom ,var(--color-one), white);
+	background:var(--color-two);
 	box-shadow:1px 0px 7px rgba(0,0,0,0.5);
 	position:fixed;
 	top:0;
@@ -24,24 +24,11 @@
 	right:10px;
 }
 .bar-line{
-  width: 36px;
-  height: 5px;
-  background-color:var(--color-two);
- /* background-color: rgb(0,0,0,.7);*/
-  margin: 6px 0;
-  border-bottom: solid 2px black;
+  width: 34px;
+  height: 4px;
+  background-color:var(--color-one);
+  margin: 8px 0;
+  border-bottom: solid 2px var(--color-two);
 }
 
-.myInitial{
-	position:fixed;
-	z-index:200;
-	top:10px;
-	left:10px;
-}
 
-.myInit{
-	position:fixed;
-	z-index:200;
-	top:14px;
-	left:10px;
-}

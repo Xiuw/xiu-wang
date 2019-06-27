@@ -1,36 +1,40 @@
 .container {
   position: relative;
+  border-radius:30px;
 }
 .container:hover{
-  border:solid 1px;
+background:var(--color-two);
 }
-.container:hover .project-title{
+.container:hover .project-info{
   opacity: 1;
   transition: .5s ease-in;
 }
-
+.projectImage{
+  border-radius:30px;
+  /*border:solid 1px white;*/
+}
 .container:hover .text{
   opacity: 1;
   transition: .5s ease-in;
 }
 
-.project-title{
+.project-info{
   position: absolute;
-  top: 10%;
+  top: 25%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   opacity:0;
-
 }
+
 .container:hover .blurImage{
     opacity:0;
     transition: .5s ease-in; 
 }
 .text {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -38,11 +42,9 @@
   opacity:0;
   color:rgb(0,0,0,.7);
 }
-.bgc{
-  background:rgba(255,255,255,.5);
-}
 
-@media(max-width:600px){
+
+@media(max-width:380px){
   .projectImage{
     width:300px;
     height:230px;

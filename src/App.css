@@ -1,6 +1,8 @@
 :root{
-  --color-one:#f4ca42;
-  --color-two:#4fd1d1;
+  --color-one:#FFB700;
+ /* --color-two:#4fd1d1;*/
+ --color-two:#001B44;
+   /* --color-one:rgba(0,0,0,.7);*/
 }
 
 .header-title{
@@ -10,11 +12,11 @@
   box-shadow: 0px 3px 0px rgba(0,0,0,.7);
 }
 .icon i {
- font-size:4rem;
+ font-size:3rem;
  margin:20px;
  padding:20px;
 }
-.greenC{
+.navyC{
   color:var(--color-two);
 
 }
@@ -30,11 +32,11 @@
 	background:rgba(0,0,0,0.4);
 	z-index:100;
 }
-
 .shadowE{
   box-shadow:0px 15px 10px -15px rgba(0,0,0,0.5);
 
 }
+
 /**************
 Link Effect
 ************/
@@ -44,9 +46,10 @@ a,.btnBtn {
   -moz-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
   -ms-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
   -o-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
+  border-radius:30px;
 }
 
 a.linkBtn:hover , .btnBtn:hover{
-  color:white;
-  box-shadow: var(--color-two) 0 0px 0px 30px inset;
+  color:var(--color-two);
+  box-shadow: var(--color-one) 0 0px 0px 30px inset;
 }
