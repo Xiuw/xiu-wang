@@ -21,7 +21,7 @@ const Homepage = () =>{
           </div>
          <div id="about" className="pt5 ml4 mr4">
                 <p className="tc f4 "></p>
-                <div className="center mw6 tc shadowE br4-ns " >
+                <div className="center mw6 tc shadowE br4" >
                      <img className="br-100 tc mt4 ba b--washed-red bw2 grow" width="130px" height="150px"src={xiu}/> 
                 <div className="center measure  pt3 pb3">
                   <p className="f5 fw6 gray pl3 pr3 tl lh-copy">My name is Xiu Wang. I'm a self-taught Web Developer.

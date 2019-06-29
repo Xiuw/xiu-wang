@@ -6,7 +6,7 @@ const Skill = () => {
           <h1 className="center mid-gray fw6 tc pt5 f3 pl4 pr4 ma0">My skills</h1>
           <p className="tc pl4 pr4 center f5 fw6 mid-gray pa4 mw7">Here are programming languages, frameworks, and tools I've used in my projects.</p> 
           <div className="ml4 mr4">
-          <div className=" shadowE tc center white mw7 br4-ns pt5 pb4 icon flex flex-wrap justify-center bg-white-20">
+          <div className=" shadowE tc center white mw7 br4 pt5 pb4 icon flex flex-wrap justify-center bg-white-20">
                  <Tilt className="Tilt pa2" options={{max:100}}>
                          <i className="devicon-html5-plain colored"></i> 
                          <p className="f6">HTML5</p>
