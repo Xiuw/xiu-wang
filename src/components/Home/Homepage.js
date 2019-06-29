@@ -7,12 +7,12 @@ const Homepage = () =>{
     <div className="pb4" id="home">
   		<div className="dt vh-100 w-100">
             <div className=" dtc v-mid bg1 themeBg">
-               <div className="center mw8 pt5">
+               <div className="center mw8 pt3">
                   <p className="f1-ns f2 tc white animated slideInDown fw6">Hi, I am <span className="mid-gray">Xiu</span>. I'm a Web Developer.</p>
                   <p className="white-80 pa1 f2-ns f3 tc ma2 animated slideInRight f3-ns f4 fw6"></p>
                </div>
                 <div className="flex justify-center list pl0 animated slideInUp">
-                  <a className="fw6 ph3 pa2 pointer f4 dib mid-gray link-effect hover-white"
+                  <a className="fw6 ph3 pa4 pointer f4 dib mid-gray link-effect hover-white"
                      href="#about">
                       <i className="fas fa-chevron-down"></i>
                   </a>  
