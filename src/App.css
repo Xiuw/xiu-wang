@@ -1,10 +1,7 @@
 :root{
-  --color-one:#FFB700;
- /* --color-two:#4fd1d1;*/
- --color-two:#001B44;
-   /* --color-one:rgba(0,0,0,.7);*/
+  --color-one:#ebbdae;
+ --color-two:#fff;
 }
-
 .header-title{
   color:rgba(0,0,0,.7);
   border-bottom:solid 3px var(--color-two);
@@ -13,14 +10,13 @@
 }
 .icon i {
  font-size:3rem;
- margin:20px;
+ margin:5px;
  padding:20px;
 }
 .navyC{
   color:var(--color-two);
-
 }
-.yellowC{
+.nudeC{
   color:var(--color-one);
 }
 .backdrop {
@@ -32,11 +28,18 @@
 	background:rgba(0,0,0,0.4);
 	z-index:100;
 }
-.shadowE{
-  box-shadow:0px 15px 10px -15px rgba(0,0,0,0.5);
-
+.shadowE{ /*box*/
+  box-shadow:0 5px 5px 0 rgb(235, 189, 174,.9), 0 1px 10px 0  rgb(235, 189, 174,.9);
 }
-
+.themeBg{
+  background:var(--color-one);
+}
+.bg1{
+clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+.bg2{
+clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
+}
 /**************
 Link Effect
 ************/
@@ -47,9 +50,19 @@ a,.btnBtn {
   -ms-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
   -o-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
   border-radius:30px;
+  border-color:var(--color-one);
 }
-
 a.linkBtn:hover , .btnBtn:hover{
   color:var(--color-two);
   box-shadow: var(--color-one) 0 0px 0px 30px inset;
 }
+
+/*************
+Scrollbar
+*/
+ /* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+

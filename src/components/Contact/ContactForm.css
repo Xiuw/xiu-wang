@@ -1,7 +1,7 @@
 textarea,input:focus{
   outline:none;
 }
-::-webkit-input-placeholder{
+/*::-webkit-input-placeholder{
   color:var(--color-one);
   font-weight:600;
 };
@@ -20,7 +20,7 @@ textarea,input:focus{
    color:var(--color-one);
   font-weight:600;
 };
-
+*/
 .lds-ring {
   display: inline-block;
   position: relative;
@@ -34,10 +34,10 @@ textarea,input:focus{
   width: 41px;
   height: 41px;
   margin: 6px;
-  border: 4px solid var(--color-two);
+  border: 4px solid var(--color-one);
   border-radius: 50%;
   animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: var(--color-two) transparent transparent transparent;
+  border-color: var(--color-one) transparent transparent transparent;
 }
 .lds-ring div:nth-child(1) {
   animation-delay: -0.45s;

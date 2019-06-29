@@ -1,10 +1,3 @@
-.bgPolygon {
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
-  clip-path: polygon(50% 0%, 100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
-}
-.homeBorderRadius{
-   border-top-right-radius:250px;
-}
 .link-effect{
   -webkit-animation-name: grow-effect;
   -webkit-animation-duration: 2s;
@@ -16,23 +9,9 @@
 .link-effect:hover{
   color:var(--color-one);
 }
-
 .link-effect:hover{
    -webkit-animation-name: none;
 }
-.myInitial{
-  position:absolute;
-  z-index:200;
-  top:10px;
-  left:10px;
-}
-.myInit{
-  position:absolute;
-  z-index:200;
-  top:14px;
-  left:10px;
-}
-
  @-webkit-keyframes grow-effect{
  from {transform: scale(1);}
  50%{transform: scale(1.5);}

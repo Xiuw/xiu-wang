@@ -30,7 +30,7 @@ class App extends Component {
         <div className="w-100">
            <Homepage />
            <Project/> 
-           <Skill/>      
+           <Skill/>   
            <ContactForm/>
            <Footer/>
         </div>
