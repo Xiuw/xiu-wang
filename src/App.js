@@ -14,14 +14,11 @@ class App extends Component {
       sideNavOpen:false,
     }
   }
-
   onHandleSideNav = () => {
     this.setState((prevState => {
       return {sideNavOpen:!prevState.sideNavOpen}
     } ))
   }
-
-
   render() {
     return (
         <div className="flex" onScroll={this.handleScroll}>
@@ -38,5 +35,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

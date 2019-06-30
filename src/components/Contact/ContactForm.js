@@ -97,7 +97,7 @@ render(){
                 <span className="mid-gray f6 pa2"></span>
                 <div className="tc">
                   <p className="btnBtn linkBtn fw6 ph4 pa3 input-reset pointer f5 nudeC dib ba no-underline"
-                     type="submit" value="Send Message" onClick={this.handleSubmit}><i class="fas fa-envelope"></i>
+                     type="submit" value="Send Message" onClick={this.handleSubmit}><i class="fas fa-paper-plane"></i>
                      <span className="pl2">Send message</span></p>
                 </div>
               </div>

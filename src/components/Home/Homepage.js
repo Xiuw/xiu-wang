@@ -19,23 +19,31 @@ const Homepage = () =>{
                 </div>  
               </div> 
           </div>
+
          <div id="about" className="pt5 ml4 mr4">
-                <p className="tc f4 "></p>
-                <div className="center mw6 tc shadowE br4" >
-                     <img className="br-100 tc mt4 ba b--washed-red bw2 grow" width="130px" height="150px"src={xiu}/> 
-                <div className="center measure  pt3 pb3">
-                  <p className="f5 fw6 gray pl3 pr3 tl lh-copy">My name is Xiu Wang. I'm a self-taught Web Developer.
-                   I enjoy and love building web applications from front-end to back-end.  
-                   I'm currently looking for an opportunity. Feel free to check out my projects.             
-                   </p>
-                </div>  
-            </div>
-            <div className="tc mt5">
-                <a className="btnBtn linkBtn fw6 ph4 pa3 input-reset pointer ba f5 dib nudeC no-underline " 
-                href="https://drive.google.com/open?id=1B01NjxgXIhTBO2OHqpe5bRMrQrJrJavX" target= "_blank" rel="noopener noreferrer">
-                <i className="fas fa-download dib"></i><span className="pl2">Resume</span>
-                </a>   
-            </div>
+                <h1 className="center mid-gray fw6 tc pb3 f3 pl4 pr4 ma0">About Me</h1>
+                <p className="tc f4"></p>
+               <div className="center tc br4 measure-wide pa3 shadowE" >
+                    <p className="f5 fw5 gray pl2 pr2 tl lh-copy"> 
+                    <div className="fl pa3">
+                    <img alt="xiu" className="center br-100 ba b--washed-red bw2 grow" width="130px" height="150px"src={xiu}/>
+                    </div>
+                    My name is Xiu Wang. I'm a self-taught web developer in Maryland.  
+                    I'm passionate about building web applications from the front-end to the back-end. 
+                    I'm excited about learning new technologies and implement them in my projects.
+                    </p>
+                    <p className="f5 fw5 gray pl4 pr3 tl lh-copy">
+                   My passion for web development is inspired by one of the stories on Medium. 
+                   The story had deeply motivated me and resonated with my own. 
+                   That's how my coding journey started, and I enjoy it since then.
+                    </p>
+                    </div>
+                  <div className="tc mt5 ">
+                    <a className="btnBtn linkBtn fw6 ph4 pa3 input-reset pointer ba f5 dib nudeC no-underline " 
+                    href="https://drive.google.com/open?id=17oGCNyYAs8kUt_qR5SVM0TBD5JYu5GKy" target= "_blank" rel="noopener noreferrer">
+                    <i className="fas fa-download dib"></i><span className="pl2">Resume</span>
+                    </a>   
+                </div>
           </div> 
     </div>
 	 )

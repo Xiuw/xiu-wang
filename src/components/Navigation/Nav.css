@@ -1,14 +1,14 @@
 .side-nav{
 	padding:30px;
-	height:320px;
+	height:340px;
 	background:var(--color-two);
 /*	box-shadow:1px 0px 7px rgba(0,0,0,0.5);*/
 	position:fixed;
 	top:0;
 	right:0;
 	width:70%;
-	max-width:300px;
-	width:300px;
+	max-width:378px;
+	width:378px;
 	z-index:300;
 	transition: transform 0.5s, ease-out;
 	border-bottom-left-radius: 400px;
