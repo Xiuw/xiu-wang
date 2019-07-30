@@ -6,17 +6,17 @@ const Navlinks = () => {
 	return(
 		<div className="flex flex-column ml4 mr4 center w4">
 			<a className={linkStyle}  href="#about">
-				<i className="w-50 tc fas fa-home dib"></i> 
+				<i className="w-50 tc fas fa-id-card dib"></i> 
 				<span className="w-50 tl f5">About</span>
 			</a>
 			<a className={linkStyle} href="#project">
 				<i className="w-50 tc fas fa-laptop-code dib"></i> 
 				<span className=" w-50 tl f5">Project</span>
 			</a>
-			<a className={linkStyle} href="#skill">	
+			{/*<a className={linkStyle} href="#skill">	
 				<i className="w-50 tc w1 fas fa-pencil-ruler dib"></i>
 				<span className="w-50 tl f5">Skill</span>
-			</a>
+			</a>*/}
 			<a className={linkStyle} href="#contact">
 				<i className="w-50 tc fas fa-envelope dib"></i> 
 				<span className="w-50 tl f5">Contact</span>

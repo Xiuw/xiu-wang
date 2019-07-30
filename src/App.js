@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import SideNav from './components/Navigation/SideNav';
 import Homepage from './components/Home/Homepage';
 import Project from './components/Project/Project';
-import Skill from './components/Skill/Skill';
+import About from './components/About/About';
 import Footer from './components/Footer/Footer';
+import Skill from './components/Skill/Skill';
 import ContactForm from './components/Contact/ContactForm';
 import './App.css';
 
@@ -26,7 +27,8 @@ class App extends Component {
         <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
         <div className="w-100">
            <Homepage />
-           <Project/> 
+           <About/>
+           <Project/>
            <Skill/>   
            <ContactForm/>
            <Footer/>

@@ -7,7 +7,7 @@ const SideNav = ({handleSideNav, showHideNav,showHideMenu}) =>{
 		<div>
 			<div>
 				<a className="" href="/">
-		          <p className="myInit pointer f2 pa2 gray ma0 animated slideInLeft slow">XW</p>
+		          <p className="myInit pointer f2 pa2 nudeC ma0 animated slideInLeft slow">XW</p>
 		          <p className="grow myInitial f2 pointer mid-gray pa2 ma0 animated slideInLeft slow">XW</p>    
         		</a>
 				<div className="bar pa2 animated slideInRight slow"  onClick={handleSideNav}> 

@@ -2,11 +2,11 @@ import React from 'react';
 import Tilt from 'react-tilt';
 const Skill = () => {
   return(
-    <div className="pb4 w-100 " id="skill"  >
-          <h1 className="center mid-gray fw6 tc pt5 f3 pl4 pr4 ma0">My skills</h1>
-          <p className="tc pl4 pr4 center f5 fw6 mid-gray pa4 mw7">Here are programming languages, frameworks, and tools I've used in my projects.</p> 
-          <div className="ml4 mr4">
-          <div className=" shadowE tc center white mw7 br4 pt5 pb4 icon flex flex-wrap justify-center bg-white-20">
+    <div className="pb5 w-100 " id="skill"  >
+        
+          <div className="ml4 mr4  ma2">
+            <p className="tc pl4 pr4 center f5 fw6 mid-gray mw7 pa3">Here are programming languages, frameworks, and tools I've used in my projects.</p> 
+          <div className=" shadow-2  tc center mid-gray mw7 pt5 pb5 icon flex flex-wrap justify-center">
                  <Tilt className="Tilt pa2" options={{max:100}}>
                          <i className="devicon-html5-plain colored"></i> 
                          <p className="f6">HTML5</p>

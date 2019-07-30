@@ -1,6 +1,7 @@
 :root{
-  --color-one:#ebbdae;
- --color-two:#fff;
+  --color-one:#ebbdae; /*nudeC*/
+  --color-two:#fff; /*white*/
+  --color-three:#555; /*mid gray*/
 }
 .header-title{
   color:rgba(0,0,0,.7);
@@ -28,18 +29,12 @@
 	background:rgba(0,0,0,0.4);
 	z-index:100;
 }
-.shadowE{ /*box*/
-  box-shadow:0 5px 5px 0 rgb(235, 189, 174,.8), 0 5px 15px 0  rgb(235, 189, 174,.8);
-}
+
 .themeBg{
   background:var(--color-one);
 }
-.bg1{
-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
-}
-.bg2{
-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0% 100%);
-}
+
+
 /**************
 Link Effect
 ************/
@@ -49,10 +44,19 @@ a,.btnBtn {
   -moz-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
   -ms-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
   -o-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
-  border-radius:30px;
-  border-color:var(--color-one);
+
+
 }
-a.linkBtn:hover , .btnBtn:hover{
+
+.Btn2{
+  border-color:var(--color-two);
+}
+.btn2:hover{
+    color:var(--color-one);
+    box-shadow: var(--color-two) 0 0px 0px 30px inset;
+}
+
+.linkBtn:hover{
   color:var(--color-two);
   box-shadow: var(--color-one) 0 0px 0px 30px inset;
 }
