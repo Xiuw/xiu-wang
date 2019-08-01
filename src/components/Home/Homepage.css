@@ -17,3 +17,20 @@
  50%{transform: scale(1.5);}
   to {transform: scale(1);}
 }
+
+
+.myInitial{
+  position:fixed;
+  z-index:200;
+  top:10px;
+  left:10px;
+  font-size:35px;
+}
+.myInit{
+  position:fixed;
+  z-index:200;
+  top:14px;
+  left:10px;
+  font-size:35px;
+}
+

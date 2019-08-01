@@ -58,7 +58,7 @@ render(){
   console.log(this.state.success)
   return(
     <div className="w-100 pb5 pt5 themeBg bg1" id="contact">
-        <h1 className="center w-100 mid-gray fw6 tc f2 pl4 pr4 ma0">Let's get in touch!</h1>
+        <h1 className="center w-100 white fw6 tc f2 pl4 pr4 ma0">Let's get in touch!</h1>
         {
         this.state.isLoading?
         <div className="flex justify-center">

@@ -20,6 +20,7 @@ class App extends Component {
       return {sideNavOpen:!prevState.sideNavOpen}
     } ))
   }
+  
   render() {
     return (
         <div className="flex" onScroll={this.handleScroll}>
