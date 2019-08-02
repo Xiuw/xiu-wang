@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/es6.f5e08bde.png"
   },
   {
-    "revision": "02a5c9badc0008bab8a8",
-    "url": "/static/css/main.16e6039b.chunk.css"
+    "revision": "292e11e23bf5290260e5",
+    "url": "/static/css/main.20fd5e23.chunk.css"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/static/media/xiu.65dc2a25.jpg"
   },
   {
-    "revision": "8bd8fc17b1d318452b15",
-    "url": "/static/js/2.059d5e69.chunk.js"
+    "revision": "02a54f6f077e4ef0d1de",
+    "url": "/static/js/2.6ff40ccb.chunk.js"
   },
   {
     "revision": "ae4d4ca63f2c3f7767f201a8af40db4b",
     "url": "/static/media/cakery.ae4d4ca6.png"
   },
   {
-    "revision": "02a5c9badc0008bab8a8",
-    "url": "/static/js/main.4a222b12.chunk.js"
+    "revision": "292e11e23bf5290260e5",
+    "url": "/static/js/main.391760a0.chunk.js"
   },
   {
     "revision": "35895726917df8e8a3142ff8ea768046",
@@ -44,11 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/starwar.0c198c2e.png"
   },
   {
-    "revision": "8bd8fc17b1d318452b15",
-    "url": "/static/css/2.923b0ab9.chunk.css"
+    "revision": "02a54f6f077e4ef0d1de",
+    "url": "/static/css/2.4084c4b3.chunk.css"
   },
   {
-    "revision": "232dd82ddb062b3c5f9fac79b81ed713",
+    "revision": "85742c781517358f6da3cbc61c5a0325",
     "url": "/index.html"
   }
 ];
