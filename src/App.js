@@ -6,6 +6,8 @@ import About from './components/About/About';
 import Footer from './components/Footer/Footer';
 import Skill from './components/Skill/Skill';
 import ContactForm from './components/Contact/ContactForm';
+
+
 import './App.css';
 
 class App extends Component {
@@ -15,6 +17,7 @@ class App extends Component {
       sideNavOpen:false,
     }
   }
+
   onHandleSideNav = () => {
     this.setState((prevState => {
       return {sideNavOpen:!prevState.sideNavOpen}
@@ -23,7 +26,7 @@ class App extends Component {
   
   render() {
     return (
-        <div className="flex" onScroll={this.handleScroll}>
+        <div className="flex">
         <SideNav handleSideNav = {this.onHandleSideNav} showHideNav ={this.state.sideNavOpen}/>
         <div className={this.state.sideNavOpen? "backdrop" : ""} onClick={this.onHandleSideNav}/>
         <div className="w-100">
