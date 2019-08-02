@@ -8,8 +8,8 @@ const Homepage = () =>{
     <div className="pb4" id="home">
     <Fade left cascade delay={500}>
         <a className="" href="/">
-              <p className="myInit pointer pa2 nudeC ma0">XW</p>
-              <p className="myInitial pointer mid-gray pa2 ma0">XW</p>    
+              <p className="myInit pointer pa2 pb0 nudeC ma0">W</p>
+              <p className="myInitial pointer mid-gray pa2 pb0 ma0">W</p>    
         </a>
     </Fade>  
 
@@ -27,10 +27,10 @@ const Homepage = () =>{
                   </Fade>
                   </div>
                   <Fade bottom cascade duration={1000}> 
-                  <p className="mid-gray pa1 f2-ns f3 ma2 a fw6">I'm a Web Developer.</p>
+                  <p className="mid-gray pa1 f2-ns f3 mt4 a fw6">I'm a Web Developer.</p>
                    </Fade>
                         <Fade bottom delay={1000}>
-                <div className="list pl2 mt4">
+                <div className="list pl2 mt5">
                   <a className="linkBtn fw6 ph4 pa3 pointer f5 dib ba nudeC no-underline"
                      href="#about">
                     Learn More

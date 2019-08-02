@@ -43,7 +43,11 @@ background:var(--color-two);
   color:rgb(0,0,0,.7);
 }
 
+.project-section{
+  max-width:500px;
+}
 
+/*
 @media(max-width:500px){
 
  .projectImage{
@@ -64,11 +68,9 @@ background:var(--color-two);
 
 
 
-@media(max-width:379px){ /*// for super small screen*/
-
- .projectImage{
+@media(max-width:379px){ 
     width:300px;
     height:auto;
   }
  
-}
+}*/

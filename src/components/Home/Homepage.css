@@ -6,7 +6,7 @@
   animation-timing-function: linear;
   animation-delay:1s;
 }
-.link-effect:hover{
+/*.link-effect:hover{
   color:var(--color-one);
 }
 .link-effect:hover{
@@ -16,19 +16,25 @@
  from {transform: scale(1);}
  50%{transform: scale(1.5);}
   to {transform: scale(1);}
-}
-
+}*/
 
 .myInitial{
   position:absolute;
   top:10px;
-  left:10px;
-  font-size:35px;
+  left:20px;
+  font-family: 'Baloo Chettan', cursive;
+  border-bottom:solid 3px gray;
+  font-size:50px;
+  border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
 }
 .myInit{
   position:absolute;
-  top:14px;
-  left:10px;
-  font-size:35px;
+  top:13px;
+  left:20px;
+  text-decoration:double line-through;
+  font-family: 'Baloo Chettan', cursive;
+   font-size:50px;
+   
 }
 

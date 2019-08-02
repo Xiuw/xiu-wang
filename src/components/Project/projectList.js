@@ -1,9 +1,9 @@
-import cakery from '../../image/cakery.png';
-import es6 from '../../image/es6.png';
-import homeservice from '../../image/homeservice.png';
-import randomquote from '../../image/randomquote.png';
-import smartpredict from '../../image/smartpredict.png';
-import starwar from '../../image/starwar.png';
+import cakery from './image/cakery.png';
+// import es6 from '../../image/es6.png';
+import homeservice from './image/homeservice.png';
+import randomquote from './image/randomquote.png';
+import smartpredict from './image/smartpredict.png';
+// import starwar from './image/starwar.png';
 
 export const projectList = [
 	{
@@ -23,7 +23,7 @@ export const projectList = [
 	{
 	  name:"Smart Predict",
 	  website:"https://xiuw.github.io/Smart-Predict/",
-	  description:"Gender,age, and ethnic prediction",
+	  description:"Submit an image for gender,age, and ethnic prediction.",
 	  github:"https://github.com/Xiuw/demographic-app",
 	  image:smartpredict
 	},
@@ -36,26 +36,27 @@ export const projectList = [
 	  image:randomquote
 	},
 
-	{
-	  name:"Starwar Character",
-	  website:"https://xiuw.github.io/star-wars",
-	  description:"Search your favorite starwar characters",
-	  github:"https://github.com/Xiuw/star-wars",
-	  image:starwar
-	},
+	// {
+	//   name:"Starwar Character",
+	//   website:"https://xiuw.github.io/star-wars",
+	//   description:"Search your favorite starwar characters",
+	//   github:"https://github.com/Xiuw/star-wars",
+	//   image:starwar
+	// },
 	{
 	  name:"Cakery",
 	  website:"https://xiuw.github.io/LandingPage/",
 	  description:"Cakery landing page",
 	  github:"https://github.com/Xiuw/LandingPage",
 	  image:cakery
-	},
-
-	{
-	  name:"ES6 DOC",
-	  website:"https://xiuw.github.io/documents/",
-	  description:"ES6 documentation",
-	  github:"https://github.com/Xiuw/documents",
-	  image:es6
 	}
+	// },
+
+	// {
+	//   name:"ES6 DOC",
+	//   website:"https://xiuw.github.io/documents/",
+	//   description:"ES6 documentation",
+	//   github:"https://github.com/Xiuw/documents",
+	//   image:es6
+	// }
 ];

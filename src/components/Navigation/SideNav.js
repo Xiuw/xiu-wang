@@ -19,7 +19,7 @@ const SideNav = ({handleSideNav, showHideNav}) =>{
             	{/*<div className="bar" onClick={handleSideNav}> 
             		<i className=" fas fa-times mid-gray f2 pa2 pointer"></i>
 	            </div>*/}  
-				<div className="tc" onClick={handleSideNav}>
+				<div className="tc flex vh-100 items-center" onClick={handleSideNav}>
 				  	<Navlinks/>	
 				</div>
             </div>

@@ -1,5 +1,5 @@
 :root{
-  --color-one:#ebbdae; /*nudeC*/
+  --color-one:#d1a799; /*nudeC*/
   --color-two:#fff; /*white*/
   --color-three:#555; /*mid gray*/
 }
@@ -44,9 +44,9 @@ a,.btnBtn {
   -o-transition: all 500ms cubic-bezier(0.400, 0.500, 0.160, 1.300);
 }
 
-.Btn2{
-  border-color:var(--color-two);
-}
+/*.Btn2{
+  border-color:var(--color-three);
+}*/
 .btn2:hover{
     color:var(--color-one);
     box-shadow: var(--color-two) 0 0px 0px 30px inset;
