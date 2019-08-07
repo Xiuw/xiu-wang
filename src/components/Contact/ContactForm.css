@@ -1,5 +1,6 @@
-textarea,input:focus{
-  outline:none;
+textarea,
+input:focus {
+  outline: none;
 }
 /*::-webkit-input-placeholder{
   color:var(--color-one);
