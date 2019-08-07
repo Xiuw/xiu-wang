@@ -43,7 +43,7 @@ const About = () => {
               <div className="mt5 mt3-l">
                 <a
                   className="btnBtn ph4 pa2 fw6 pointer f5 no-underline white ba btn2 fl-l"
-                  href="https://drive.google.com/open?id=11O7gCQSD2z98Wvz9znSRTwzRn2NfGmul"
+                  href="https://drive.google.com/open?id=1hoSgXnXdl08np78aH23P53bn4ff7hPx8"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
