@@ -5,13 +5,6 @@ import Fade from "react-reveal/Fade";
 const Homepage = () => {
   return (
     <div className="pb4" id="home">
-      <Fade left cascade delay={500}>
-        <a className="" href="/">
-          <p className="myInit pointer pa2 pb0 nudeC ma0">W</p>
-          <p className="myInitial pointer mid-gray pa2 pb0 ma0">W</p>
-        </a>
-      </Fade>
-
       <div className="dt vh-100 w-100">
         <div className=" dtc v-mid">
           <div className="center tc mw8 pt3">

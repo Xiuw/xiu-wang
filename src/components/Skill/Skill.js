@@ -4,7 +4,7 @@ const Skill = () => {
   return (
     <div className="pb5 pt3 w-100 " id="skill">
       <div className="ml4 mr4  ma2">
-        <div className="tc center mid-gray pt4 pb3 icon flex flex-wrap justify-center">
+        <div className="tc center mid-gray pt4 https://drive.google.com/open?id=11O7gCQSD2z98Wvz9znSRTwzRn2NfGmul icon flex flex-wrap justify-center">
           <Fade bottom cascade delay={500} duration={3000}>
             <div className="pa2">
               <i className="devicon-javascript-plain" />

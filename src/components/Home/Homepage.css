@@ -1,10 +1,10 @@
-.link-effect{
+.link-effect {
   -webkit-animation-name: grow-effect;
   -webkit-animation-duration: 2s;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-  animation-delay:1s;
+  animation-delay: 1s;
 }
 /*.link-effect:hover{
   color:var(--color-one);
@@ -18,23 +18,26 @@
   to {transform: scale(1);}
 }*/
 
-.myInitial{
-  position:absolute;
-  top:10px;
-  left:20px;
-  font-family: 'Baloo Chettan', cursive;
-  border-bottom:solid 3px gray;
-  font-size:50px;
+.myInitial {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Baloo Chettan", cursive;
+  border-bottom: solid 3px gray;
+  font-size: 50px;
   border-bottom-left-radius: 20px;
-   border-bottom-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.myInit{
-  position:absolute;
-  top:13px;
-  left:20px;
-  text-decoration:double line-through;
-  font-family: 'Baloo Chettan', cursive;
-   font-size:50px;
-   
-}
+.myInit {
+  position: absolute;
+  top: 13px;
+  left: 20px;
 
+  font-family: "Baloo Chettan", cursive;
+  font-size: 50px;
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
