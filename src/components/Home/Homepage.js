@@ -18,7 +18,7 @@ const Homepage = () => {
             </div>
             <Fade bottom cascade duration={1000}>
               <p className="mid-gray pa1 f2-ns f3 mt4 a fw6">
-                a Full Stack Developer
+                a Full Stack Developer.
               </p>
             </Fade>
             <Fade bottom delay={1000}>
