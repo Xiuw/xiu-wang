@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
         </div>
         <hr className="mw6-l mw5" />
-        <p className="f6-ns f7 db fw6 ttu tc nudeC pb5">
+        <p className="f6-ns f7 db fw6 ttu tc nudeC pb5 ma0">
           © 2019 Developed by Xiu Wang.
         </p>
       </Fade>

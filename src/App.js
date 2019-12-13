@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import SideNav from "./components/Navigation/SideNav";
 import Homepage from "./components/Home/Homepage";
 import Project from "./components/Project/Project";
-import About from "./components/About/About";
+// import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
 import ContactForm from "./components/Contact/ContactForm";
 
@@ -35,7 +35,6 @@ class App extends Component {
         />
         <div className="w-100">
           <Homepage />
-          <About />
           <Project />
           <ContactForm />
           <Footer />
